@@ -6,3 +6,40 @@
 #recipe-view[hidden]{display:none}.detail-open .hero,.detail-open .collection,.detail-open .guide{display:none}
 #recipe-view{padding:35px 0 65px}.detail-nav{display:flex;align-items:center;justify-content:space-between;gap:15px;padding-bottom:24px;border-bottom:1px solid var(--line)}.detail-nav .eyebrow{margin:0;text-align:right}#recipe-view #recipe{border:0;padding-top:34px;margin:0}
 @media(max-width:650px){.hero .grill-art{position:relative;right:auto;top:auto;opacity:1;width:100%;height:235px;min-height:235px;margin-top:4px}.grill-art img{width:100%;height:100%}.hero-foot{margin-top:15px}#recipe-view{padding-top:18px}.detail-nav{padding-bottom:16px}.detail-nav .eyebrow{font-size:9px}}
+
+/* Food photography */
+.card{display:flex;flex-direction:column;overflow:hidden;min-height:260px;padding:0}
+.card-photo{position:relative;display:block;width:100%;height:154px;flex:none;background:#d4c8b2}
+.card-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(#0006,transparent 48%)}
+.card-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.card .number{position:absolute;z-index:1;top:11px;left:12px;margin:0;color:#fff;font-size:21px;text-shadow:0 1px 7px #000b}
+.card .heart{z-index:1;top:10px;right:10px;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#241d18b8;color:#fff}
+.card strong{padding:16px 14px 0;margin-bottom:8px}
+.card small{padding:0 14px 17px;margin-top:auto}
+.recipe-photo{margin:26px 0 8px}
+.recipe-photo img{display:block;width:100%;height:390px;object-fit:cover;border-radius:5px;background:#d4c8b2}
+.recipe-photo figcaption{text-align:right;padding-top:8px;color:var(--muted);font-size:11px}
+.recipe-photo figcaption a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:650px){.card{min-height:226px}.card-photo{height:116px}.card strong{font-size:17px;padding:12px 11px 0}.card small{padding:0 11px 13px}.recipe-photo img{height:230px}.recipe-photo{margin-top:18px}}
+
+/* Quiet, editorial cover and recipe cards */
+.hero{background:#24231e;background-image:none;gap:34px;border-radius:0;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr)}
+.hero-photo{position:relative;min-width:0;min-height:330px;margin:0;overflow:hidden}
+.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero-photo figcaption{position:absolute;right:0;bottom:0;max-width:100%;padding:8px 11px;background:#24231edc;color:#f6eee0;font-size:10px;line-height:1.4}
+.hero-photo a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.hero-foot{margin-top:16px}
+.card{border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;transition:none}
+.card:hover{transform:none}.card:hover .card-photo img{transform:scale(1.025)}
+.card.active{border-color:var(--rust);box-shadow:none}
+.card-photo{overflow:hidden;height:165px}.card-photo::after{display:none}
+.card-photo img{transition:transform .2s ease}
+.card .number{position:static;padding:13px 0 0;margin:0;color:var(--rust);font:700 10px/1.4 system-ui,sans-serif;letter-spacing:1.5px;text-shadow:none}
+.card strong{padding:6px 0 0;margin-bottom:7px;font-size:18px}
+.card small{padding:0 0 15px}
+.card .heart{top:10px;right:10px;width:27px;height:27px;border-radius:2px;background:#f5efe5;color:var(--rust)}
+.card .heart:empty{display:none}
+@media(max-width:650px){.hero{gap:0;grid-template-columns:minmax(0,1fr)}.hero-photo{min-height:230px;margin-top:28px}.hero-foot{margin-top:24px}.card{min-height:224px}.card-photo{height:120px}.card .number{padding-top:10px}.card strong{padding:4px 0 0;font-size:17px}.card small{padding:0 0 12px}.card:hover .card-photo img{transform:none}}
+@media(prefers-reduced-motion:reduce){.card-photo img{transition:none}}
+
+@media(max-width:650px){.recipehead>.outline{min-width:80px;white-space:nowrap}}
