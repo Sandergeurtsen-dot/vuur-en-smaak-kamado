@@ -1427,5 +1427,1465 @@ const RECIPES = [
     "tip": "Gebruik stevig fruit; zeer rijpe perziken vallen snel uiteen.",
     "source": "https://www.douglasdeal.nl/pages/bbq-recepten",
     "base": 4
+  },
+  {
+    "id": "tomahawk",
+    "title": "Tomahawk met cowboyboter",
+    "category": "Rund",
+    "description": "Een groot stuk rundvlees met donkere korst en kruidige boter.",
+    "time": "± 1½ uur",
+    "temp": "120 → 250 °C",
+    "core": "63 °C + 3 min rust",
+    "mode": "Indirect → direct",
+    "ingredients": [
+      {
+        "qty": 1200,
+        "unit": "g",
+        "name": "tomahawksteak"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "roomboter"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "platte peterselie"
+      },
+      {
+        "qty": 5,
+        "unit": "g",
+        "name": "gerookt paprikapoeder"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "grof zout en peper"
+      }
+    ],
+    "steps": [
+      "Kruid de tomahawk royaal. Gaar indirect op 120 °C tot circa 50–55 °C kern.",
+      "Meng zachte boter met knoflook, citroenrasp, peterselie en paprika.",
+      "Haal het vlees tijdelijk van de grill, verwijder het hitteschild en stook op naar 250 °C. Schroei kort rondom tot minimaal 63 °C.",
+      "Laat minstens 3 minuten rusten en serveer in plakken met cowboyboter."
+    ],
+    "tip": "Een steak van 1,2 kg bevat ook bot. Voor vier personen is dit een gedeeld hoofdgerecht met bijgerechten.",
+    "source": "https://barbecuebible.com/2026/10/16/how-to-grill-a-tomahawk-steak/",
+    "base": 4
+  },
+  {
+    "id": "dino-ribs",
+    "title": "Gerookte dino ribs",
+    "category": "Rund",
+    "description": "Grote runderribben met diepe bark en zacht vlees.",
+    "time": "8–11 uur + rust",
+    "temp": "110–120 °C",
+    "core": "93–96 °C en prikmals",
+    "mode": "Indirect / rook",
+    "ingredients": [
+      {
+        "qty": 2400,
+        "unit": "g",
+        "name": "beef plate ribs met bot"
+      },
+      {
+        "qty": 25,
+        "unit": "g",
+        "name": "grof zout"
+      },
+      {
+        "qty": 25,
+        "unit": "g",
+        "name": "grof gemalen peper"
+      },
+      {
+        "qty": 8,
+        "unit": "g",
+        "name": "chilivlokken"
+      },
+      {
+        "qty": 250,
+        "unit": "ml",
+        "name": "runderbouillon"
+      }
+    ],
+    "steps": [
+      "Verwijder de dikke vetkap en het vlies aan de botkant. Meng zout, peper en chili en kruid rondom.",
+      "Stabiliseer indirect op 110–120 °C; voeg een klein stuk eikenhout toe. Rook de ribben met botkant omlaag.",
+      "Besproei eventueel met wat bouillon als de buitenkant droog wordt. Gaar door tot 93–96 °C en de prikker soepel in het vlees gaat.",
+      "Laat losjes afgedekt minstens 45 minuten rusten en snijd langs de botten."
+    ],
+    "tip": "Beef plate ribs zijn forse stukken; vraag de slager specifiek naar dit deel. De priktest is belangrijker dan een exact getal.",
+    "source": "https://barbecuebible.com/2026/10/09/dino-bones-beef-plate-ribs/",
+    "base": 4
+  },
+  {
+    "id": "carne-asada",
+    "title": "Carne-asada taco’s",
+    "category": "Rund",
+    "description": "Citrusgemarineerd rund met warme tortilla’s en snelle salsa.",
+    "time": "45 min + 2 uur marineren",
+    "temp": "220–240 °C",
+    "core": "63 °C + 3 min rust",
+    "mode": "Direct / plancha",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "flanksteak of bavette"
+      },
+      {
+        "qty": 8,
+        "unit": "stuks",
+        "name": "kleine tortilla’s"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "limoenen"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "rode ui"
+      },
+      {
+        "qty": 3,
+        "unit": "stuks",
+        "name": "tomaten"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "koriander"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "avocado"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "steps": [
+      "Marineer het vlees 2 uur gekoeld in olie, sap van één limoen, knoflook en peper.",
+      "Snijd ui, tomaat en koriander klein voor een salsa; breng op smaak met limoen en zout.",
+      "Gril het vlees direct op 220–240 °C tot minimaal 63 °C kern. Laat minstens 3 minuten rusten en snijd dwars op de vezels.",
+      "Warm de tortilla’s kort op de plaat en vul met vlees, salsa en avocado."
+    ],
+    "tip": "Gebruik voor grote groepen een tweede grillronde: een volle plancha geeft geen goede korst.",
+    "source": "https://barbecuebible.com/recipe/carne-asada-griddle-tacos-with-shrimp-bites/",
+    "base": 4
+  },
+  {
+    "id": "porchetta",
+    "title": "Porchetta met krokant zwoerd",
+    "category": "Varken",
+    "description": "Italiaanse buikspekrollade met venkel, knoflook en knapperige huid.",
+    "time": "4–5 uur + nacht drogen",
+    "temp": "120 → 200 °C",
+    "core": "70 °C in de kern",
+    "mode": "Indirect / spit of rooster",
+    "ingredients": [
+      {
+        "qty": 2500,
+        "unit": "g",
+        "name": "buikspek met zwoerd"
+      },
+      {
+        "qty": 25,
+        "unit": "g",
+        "name": "grof zout"
+      },
+      {
+        "qty": 4,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "venkelzaad"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "rozemarijn"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "salie"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": null,
+        "unit": "naar behoefte",
+        "name": "slagerstouw"
+      }
+    ],
+    "steps": [
+      "Prik het zwoerd dicht in en zout het. Laat het vlees een nacht onafgedekt in de koelkast drogen.",
+      "Snijd het buikspek aan de vleeskant open, verdeel knoflook, venkel en kruiden erover, rol op en bind vast.",
+      "Gaar indirect op 120 °C met lekbak tot circa 65 °C kern. Verhoog de temperatuur naar 200 °C voor krokant zwoerd.",
+      "Haal af bij minimaal 70 °C kern. Laat 10 minuten rusten en snijd in plakken."
+    ],
+    "tip": "Een spit geeft gelijkmatige crackling; op een rooster kan ook, draai dan af en toe en houd de huid droog.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/porchetta",
+    "base": 10
+  },
+  {
+    "id": "secreto",
+    "title": "Ibérico secreto met paprika",
+    "category": "Varken",
+    "description": "Dun gemarmerd varkensvlees dat kort boven heet vuur gaart.",
+    "time": "± 35 min",
+    "temp": "220 °C",
+    "core": "63 °C + 3 min rust",
+    "mode": "Direct",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "Ibérico secreto"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "rode puntpaprika’s"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 25,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 8,
+        "unit": "g",
+        "name": "gerookt paprikapoeder"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "steps": [
+      "Snijd paprika in repen en meng met olie, knoflook en gerookt paprikapoeder.",
+      "Stabiliseer direct op 220 °C. Gril paprika tot zacht en licht geblakerd.",
+      "Gril de secreto kort aan beide zijden. Meet in het dikste deel tot minimaal 63 °C.",
+      "Laat minstens 3 minuten rusten, snijd in repen en serveer met paprika en citroen."
+    ],
+    "tip": "Secreto is dun en gaart snel; houd een indirecte plek vrij als het vet opvlamt.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/menus/er-mag-gerookt-worden",
+    "base": 4
+  },
+  {
+    "id": "karbonade-appel",
+    "title": "Karbonade met appelglaze",
+    "category": "Varken",
+    "description": "Sappige karbonades met een zoet-zure lak.",
+    "time": "± 45 min",
+    "temp": "190–210 °C",
+    "core": "63 °C + 3 min rust",
+    "mode": "Direct + uitwijkzone",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "dikke varkenskarbonades"
+      },
+      {
+        "qty": 150,
+        "unit": "ml",
+        "name": "ongezoet appelsap"
+      },
+      {
+        "qty": 60,
+        "unit": "ml",
+        "name": "BBQ-saus"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "appelazijn"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "mosterd"
+      },
+      {
+        "qty": 10,
+        "unit": "ml",
+        "name": "olie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "steps": [
+      "Laat appelsap, BBQ-saus, azijn en mosterd in een pannetje inkoken tot een dunne glaze.",
+      "Dep de karbonades droog, bestrijk licht met olie en kruid. Gril direct op 190–210 °C voor kleur.",
+      "Verplaats zo nodig naar een indirecte zone. Lak pas in de laatste minuten om verbranden te voorkomen.",
+      "Meet tot minimaal 63 °C en laat minstens 3 minuten rusten."
+    ],
+    "tip": "Zet een apart kommetje glaze voor serveren weg voordat je rauw vlees lakt.",
+    "source": "https://barbecuebible.com/recipe/pork-chops-with-spicy-apple-barbecue-sauce/",
+    "base": 4
+  },
+  {
+    "id": "kalkoenborst",
+    "title": "Gerookte kalkoenborst",
+    "category": "Kip & gevogelte",
+    "description": "Mild gerookt gevogelte met salie en citroen.",
+    "time": "2–3 uur",
+    "temp": "150–165 °C",
+    "core": "75 °C in de kern",
+    "mode": "Indirect / rook",
+    "ingredients": [
+      {
+        "qty": 1200,
+        "unit": "g",
+        "name": "kalkoenborst zonder bot"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 12,
+        "unit": "g",
+        "name": "zout"
+      },
+      {
+        "qty": 8,
+        "unit": "g",
+        "name": "salie"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 5,
+        "unit": "g",
+        "name": "zwarte peper"
+      }
+    ],
+    "steps": [
+      "Dep de kalkoenborst droog. Wrijf in met olie, zout, peper, gehakte salie en citroenrasp.",
+      "Stabiliseer indirect op 150–165 °C met lekbak en een klein stukje appelhout.",
+      "Gaar met gesloten deksel tot 75 °C in het dikste deel; begin na circa 1 uur te meten.",
+      "Laat 10 minuten rusten en snijd dun dwars op de vezels."
+    ],
+    "tip": "Kalkoenborst kan snel uitdrogen; gebruik een kernthermometer en beperk rookhout.",
+    "source": "https://amazingribs.com/tested-recipes/turkey-recipes/ultimate-bbq-turkey-recipe/",
+    "base": 4
+  },
+  {
+    "id": "alabama-kip",
+    "title": "Kippendijen met Alabama white sauce",
+    "category": "Kip & gevogelte",
+    "description": "Rokerige kip met een frisse, peperige witte BBQ-saus.",
+    "time": "± 1 uur",
+    "temp": "175–190 °C",
+    "core": "75 °C bij het bot",
+    "mode": "Indirect → direct",
+    "ingredients": [
+      {
+        "qty": 1200,
+        "unit": "g",
+        "name": "kippendijen met vel en bot"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "mayonaise"
+      },
+      {
+        "qty": 80,
+        "unit": "ml",
+        "name": "wittewijnazijn"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "Dijonmosterd"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "mierikswortel"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "zonnebloemolie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en zwarte peper"
+      }
+    ],
+    "steps": [
+      "Kruid de kip met zout en peper. Meng mayonaise, azijn, mosterd en mierikswortel tot een saus en zet gekoeld weg.",
+      "Gaar de dijen indirect op 175–190 °C, desgewenst met een klein stukje rookhout.",
+      "Gril de velkant kort direct krokant als de kip bijna gaar is. Meet op meerdere plekken tot minimaal 75 °C.",
+      "Serveer met de gekoelde witte saus; houd rauwe-kipgereedschap apart."
+    ],
+    "tip": "Lak deze saus niet op rauwe kip: serveer hem schoon aan tafel.",
+    "source": "https://barbecuebible.com/recipe/chicken-thighs-with-alabama-white-barbecue-sauce/",
+    "base": 4
+  },
+  {
+    "id": "yakitori",
+    "title": "Yakitori met lente-ui",
+    "category": "Kip & gevogelte",
+    "description": "Japanse kipspiezen met glanzende, hartige lak.",
+    "time": "± 45 min",
+    "temp": "180–200 °C",
+    "core": "75 °C in de kip",
+    "mode": "Direct",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "kippendij zonder bot"
+      },
+      {
+        "qty": 6,
+        "unit": "stuks",
+        "name": "lente-uitjes"
+      },
+      {
+        "qty": 80,
+        "unit": "ml",
+        "name": "sojasaus"
+      },
+      {
+        "qty": 60,
+        "unit": "ml",
+        "name": "mirin"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "bruine suiker"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "verse gember"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "sesamzaad"
+      }
+    ],
+    "steps": [
+      "Snijd kip en lente-ui in gelijke stukken en rijg om en om aan metalen spiesen.",
+      "Laat sojasaus, mirin, suiker, gember en knoflook even koken tot een dunne lak; houd een deel schoon voor het serveren.",
+      "Gril direct op 180–200 °C en keer vaak. Bestrijk met de kooklak terwijl de spiesen garen.",
+      "Meet de dikste kipstukken tot 75 °C en bestrooi met sesam."
+    ],
+    "tip": "De basis is een hoofdgerecht voor vier met rijst; als borrelhap levert het meer kleine spiesen.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/yakitori-spiesjes",
+    "base": 4
+  },
+  {
+    "id": "pulled-lamb",
+    "title": "Pulled lamb met kruidige jus",
+    "category": "Lam",
+    "description": "Langzaam gegaarde lamsschouder die in zachte draden uiteenvalt.",
+    "time": "6–8 uur",
+    "temp": "110–130 °C",
+    "core": "± 90–95 °C en trekbaar",
+    "mode": "Indirect / rook",
+    "ingredients": [
+      {
+        "qty": 1600,
+        "unit": "g",
+        "name": "lamsschouder zonder bot"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "zout"
+      },
+      {
+        "qty": 12,
+        "unit": "g",
+        "name": "gemalen komijn"
+      },
+      {
+        "qty": 12,
+        "unit": "g",
+        "name": "gerookt paprikapoeder"
+      },
+      {
+        "qty": 8,
+        "unit": "g",
+        "name": "knoflookpoeder"
+      },
+      {
+        "qty": 300,
+        "unit": "ml",
+        "name": "runderbouillon"
+      },
+      {
+        "qty": 40,
+        "unit": "ml",
+        "name": "appelazijn"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "sojasaus"
+      }
+    ],
+    "steps": [
+      "Wrijf de lamsschouder in met zout en specerijen en laat 1 uur gekoeld staan.",
+      "Rook indirect op 110–130 °C met een klein stuk hickory- of eikenhout tot een donkere korst ontstaat.",
+      "Leg in een gesloten pan met bouillon, azijn en sojasaus. Gaar verder tot het vlees zonder weerstand uit elkaar trekt, meestal rond 90–95 °C.",
+      "Laat 20 minuten rusten. Trek uiteen en meng met een beetje van de gezeefde jus."
+    ],
+    "tip": "De bron combineert roken en ovenbraden; deze versie houdt de hele garing op de kamado.",
+    "source": "https://barbecuebible.com/recipe/pulled-lamb-bbq/",
+    "base": 6
+  },
+  {
+    "id": "lamskofta",
+    "title": "Lamskofta met yoghurtdip",
+    "category": "Lam",
+    "description": "Kruidige lamsgehaktspiezen met frisse citroenyoghurt.",
+    "time": "± 45 min",
+    "temp": "200–220 °C",
+    "core": "71 °C in het gehakt",
+    "mode": "Direct",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "lamsgehakt"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "rode ui"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 12,
+        "unit": "g",
+        "name": "gemalen komijn"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "platte peterselie"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "Griekse yoghurt"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "steps": [
+      "Rasp ui en knoflook fijn en meng met lamsgehakt, komijn, peterselie, zout en peper. Vorm acht langwerpige kofta rond metalen spiesen.",
+      "Meng yoghurt met citroensap en een snuf zout; zet gekoeld weg.",
+      "Gril de kofta direct op 200–220 °C en draai regelmatig tot overal bruin en 71 °C in de kern.",
+      "Serveer met de yoghurtdip en eventueel brood."
+    ],
+    "tip": "Gebruik koele handen en knijp het gehakt stevig om de spies; anders kan het loskomen.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/lamsgehaktballetjes-met-yoghurtdip",
+    "base": 4
+  },
+  {
+    "id": "kabeljauw",
+    "title": "Kabeljauw met beurre blanc",
+    "category": "Vis & zeevruchten",
+    "description": "Zacht visvlees met gegrilde asperges en een frisse botersaus.",
+    "time": "± 50 min",
+    "temp": "180–200 °C",
+    "core": "63 °C in het dikste deel",
+    "mode": "Plancha + direct",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "dikke kabeljauwfilet"
+      },
+      {
+        "qty": 500,
+        "unit": "g",
+        "name": "groene asperges"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "koude roomboter"
+      },
+      {
+        "qty": 120,
+        "unit": "ml",
+        "name": "droge witte wijn"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "appelazijn"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 15,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "steps": [
+      "Laat wijn en azijn in een pannetje tot circa een derde inkoken. Zet de reductie apart.",
+      "Verhit plancha en rooster op 180–200 °C. Gril de asperges kort met olie tot beetgaar.",
+      "Dep kabeljauw droog, kruid en bak op de ingevette plaat. Keer voorzichtig en meet tot 63 °C.",
+      "Klop vlak voor serveren koude boter blokje voor blokje door de warme, niet kokende reductie. Voeg citroen toe en serveer direct."
+    ],
+    "tip": "De saus kan schiften als hij kookt. De bron gebruikt een lagere culinaire kerntemperatuur; deze versie 63 °C.",
+    "source": "https://thebastard.com/blogs/recipes/barry-fish",
+    "base": 4
+  },
+  {
+    "id": "sesam-tonijn",
+    "title": "Sesam-tonijnsteak",
+    "category": "Vis & zeevruchten",
+    "description": "Een krokante sesamkorst met gember-limoendressing.",
+    "time": "± 40 min",
+    "temp": "220–240 °C",
+    "core": "63 °C in de kern",
+    "mode": "Direct / skillet",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "tonijnsteaks"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "sesamzaad"
+      },
+      {
+        "qty": 40,
+        "unit": "ml",
+        "name": "sojasaus"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "sesamolie"
+      },
+      {
+        "qty": 25,
+        "unit": "g",
+        "name": "gember"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "limoen"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "rijstazijn"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "peper"
+      }
+    ],
+    "steps": [
+      "Meng sojasaus, sesamolie, fijn geraspte gember, limoensap en rijstazijn. Houd de helft als schone dressing apart.",
+      "Dep de tonijn droog, bestrijk met wat marinade en druk beide kanten in sesam.",
+      "Verhit een skillet op 220–240 °C. Bak rondom en meet in het dikste deel tot 63 °C.",
+      "Laat kort rusten en serveer met de apart gehouden dressing."
+    ],
+    "tip": "De inspiratiebron is een rauwe tataki; deze variant gaart de tonijn volledig voor een conservatievere veiligheidsmarge.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/tonijn-tataki-sesamzaad",
+    "base": 4
+  },
+  {
+    "id": "makreel",
+    "title": "Warmgerookte makreel",
+    "category": "Vis & zeevruchten",
+    "description": "Een eenvoudige hele vis met zachte rook en citroen.",
+    "time": "± 1¾ uur",
+    "temp": "100–120 °C",
+    "core": "63 °C in het dikste deel",
+    "mode": "Indirect / rook",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "schoongemaakte makrelen"
+      },
+      {
+        "qty": 18,
+        "unit": "g",
+        "name": "fijn zout"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "dille"
+      },
+      {
+        "qty": 15,
+        "unit": "ml",
+        "name": "olijfolie"
+      }
+    ],
+    "steps": [
+      "Spoel de makrelen kort en dep goed droog. Zout de buikholtes en zet 45–60 minuten afgedekt koel.",
+      "Stabiliseer indirect op 100–120 °C met een kleine hoeveelheid mild rookhout.",
+      "Leg de vissen op een ingevet geperforeerd rooster en rook tot 63 °C in het dikste deel.",
+      "Serveer met citroen, dille en een beetje olijfolie."
+    ],
+    "tip": "Controleer na het fileren zorgvuldig op graten.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gestoomde-en-gerookte-makreel",
+    "base": 4
+  },
+  {
+    "id": "biet-bimi",
+    "title": "Geroosterde biet en bimi",
+    "category": "Vegetarisch",
+    "description": "Aardse biet, frisse ingelegde ui en zachte kaas.",
+    "time": "± 1½ uur",
+    "temp": "180–200 °C",
+    "core": "Biet zacht, bimi beetgaar",
+    "mode": "Indirect → direct",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "rauwe bieten"
+      },
+      {
+        "qty": 300,
+        "unit": "g",
+        "name": "bimi"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "rode uien"
+      },
+      {
+        "qty": 150,
+        "unit": "ml",
+        "name": "appelazijn"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "name": "suiker"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "ricotta"
+      },
+      {
+        "qty": 75,
+        "unit": "g",
+        "name": "hazelnoten"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "olijfolie"
+      }
+    ],
+    "steps": [
+      "Snijd ui dun. Verwarm azijn met suiker en wat water en giet over de ui; laat minstens 30 minuten staan.",
+      "Rooster de bieten indirect op 180–200 °C tot gaar, circa 60–90 minuten. Laat afkoelen, pel en snijd in parten.",
+      "Gril bimi direct beetgaar. Meng ricotta met citroenrasp en een scheut olie.",
+      "Leg biet, bimi en ricotta op een schaal; voeg ingelegde ui en geroosterde hazelnoten toe."
+    ],
+    "tip": "Roostertijden voor bieten hangen sterk af van de grootte; een mes moet makkelijk naar binnen gaan.",
+    "source": "https://thebastard.com/blogs/recipes/roasted-beet-with-grilled-bimi-and-soft-cheese",
+    "base": 4
+  },
+  {
+    "id": "pompoensoep",
+    "title": "Geroosterde pompoensoep",
+    "category": "Vegetarisch",
+    "description": "Een warme kom met rokerige pompoen, kokos en specerijen.",
+    "time": "± 1 uur",
+    "temp": "210–225 °C",
+    "core": "Pompoen zacht",
+    "mode": "Indirect / Dutch oven",
+    "ingredients": [
+      {
+        "qty": 1200,
+        "unit": "g",
+        "name": "flespompoen"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "sjalotten"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 400,
+        "unit": "ml",
+        "name": "kokosmelk"
+      },
+      {
+        "qty": 500,
+        "unit": "ml",
+        "name": "groentebouillon"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "milde currypasta"
+      },
+      {
+        "qty": 8,
+        "unit": "g",
+        "name": "ras el hanout"
+      },
+      {
+        "qty": 30,
+        "unit": "g",
+        "name": "pompoenpitten"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "olijfolie"
+      }
+    ],
+    "steps": [
+      "Halveer de pompoen, verwijder de pitten en bestrijk met olie. Rooster indirect op 210–225 °C tot zacht.",
+      "Fruit sjalot en knoflook in een Dutch oven op de kamado. Voeg currypasta en ras el hanout toe.",
+      "Schep pompoenvlees erbij met kokosmelk en bouillon. Laat 10 minuten zacht koken en pureer glad.",
+      "Rooster de pitten kort in een droge skillet en strooi over de soep."
+    ],
+    "tip": "Voor een hoofdgerecht kun je er knoflook-naan bij serveren; de lijst zelf bevat alleen de soep.",
+    "source": "https://thebastard.com/en/blogs/recipes/winter-pumpkin-soup",
+    "base": 4
+  },
+  {
+    "id": "kool-wedges",
+    "title": "Gegrilde kool met zoetzure dressing",
+    "category": "Vegetarisch",
+    "description": "Geblakerde koolranden met frisse azijn en komijn.",
+    "time": "± 40 min",
+    "temp": "200–220 °C",
+    "core": "Kool zacht met bite",
+    "mode": "Direct",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "groene kool"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "rode-wijnazijn"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "bruine suiker"
+      },
+      {
+        "qty": 5,
+        "unit": "g",
+        "name": "karwijzaad"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "peterselie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "steps": [
+      "Snijd de kool in stevige parten met de stronk eraan zodat ze bij elkaar blijven. Bestrijk met olie en kruid.",
+      "Gril direct op 200–220 °C ongeveer 3–5 minuten per zijde tot donkere randen ontstaan. Verplaats eventueel indirect om de kern zachter te laten worden.",
+      "Klop azijn, suiker en karwij tot dressing.",
+      "Leg de kool op een schaal, giet de dressing erover en bestrooi met peterselie."
+    ],
+    "tip": "Laat de stronk tijdens het grillen zitten; die houdt de parten heel.",
+    "source": "https://barbecuebible.com/recipe/grilled-coleslaw/",
+    "base": 4
+  },
+  {
+    "id": "focaccia",
+    "title": "Rozemarijnfocaccia",
+    "category": "Pizza & brood",
+    "description": "Luchtig brood met olijfolie en krokante rand.",
+    "time": "2½ uur incl. rijzen",
+    "temp": "200–220 °C",
+    "core": "Goudbruin en gaar",
+    "mode": "Indirect / bakvorm",
+    "ingredients": [
+      {
+        "qty": 500,
+        "unit": "g",
+        "name": "tarwebloem"
+      },
+      {
+        "qty": 350,
+        "unit": "ml",
+        "name": "lauw water"
+      },
+      {
+        "qty": 7,
+        "unit": "g",
+        "name": "droge gist"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "zout"
+      },
+      {
+        "qty": 60,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "verse rozemarijn"
+      },
+      {
+        "qty": 8,
+        "unit": "g",
+        "name": "grof zeezout"
+      }
+    ],
+    "steps": [
+      "Kneed bloem, water, gist, zout en 30 ml olie tot een soepel, kleverig deeg. Laat afgedekt ongeveer 1 uur rijzen.",
+      "Vet een bakvorm in, druk het deeg erin en laat nog 30 minuten rijzen. Maak kuiltjes met je vingers.",
+      "Sprenkel resterende olie erover, bestrooi met rozemarijn en grof zout.",
+      "Bak indirect op 200–220 °C circa 25–35 minuten goudbruin. Laat op een rooster afkoelen."
+    ],
+    "tip": "De basis is één brood voor ongeveer zes personen als bijgerecht. Een hitteschild voorkomt een donkere bodem.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/focaccia-deluxe",
+    "base": 6
+  },
+  {
+    "id": "flammkuchen",
+    "title": "Flammkuchen met ui en spek",
+    "category": "Pizza & brood",
+    "description": "Dunne knapperige bodems met romige topping.",
+    "time": "± 1½ uur",
+    "temp": "240–250 °C",
+    "core": "Bodem krokant",
+    "mode": "Indirect / pizzasteen",
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "name": "tarwebloem"
+      },
+      {
+        "qty": 7,
+        "unit": "g",
+        "name": "droge gist"
+      },
+      {
+        "qty": 210,
+        "unit": "ml",
+        "name": "water"
+      },
+      {
+        "qty": 25,
+        "unit": "ml",
+        "name": "zonnebloemolie"
+      },
+      {
+        "qty": 7,
+        "unit": "g",
+        "name": "zout"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "crème fraîche"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "rode uien"
+      },
+      {
+        "qty": 250,
+        "unit": "g",
+        "name": "spekreepjes"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "geraspte Parmezaan"
+      }
+    ],
+    "steps": [
+      "Kneed bloem, gist, water, olie en zout tot elastisch deeg en laat 20 minuten afgedekt rusten.",
+      "Verwarm de kamado indirect met pizzasteen tot 240–250 °C. Verdeel het deeg in zes ballen en rol heel dun uit.",
+      "Bestrijk met crème fraîche en beleg met ui, spek en kaas.",
+      "Bak per stuk circa 7–9 minuten op de steen tot de rand krokant is."
+    ],
+    "tip": "De basis maakt zes kleine flammkuchen. Bij een grotere groep bak je ze na elkaar.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/klassieke-flammkuchen",
+    "base": 6
+  },
+  {
+    "id": "mac-cheese",
+    "title": "Gerookte mac & cheese",
+    "category": "Bijgerechten",
+    "description": "Romige macaroni met een krokante kruimellaag.",
+    "time": "± 1¼ uur",
+    "temp": "180–200 °C",
+    "core": "Bubbelend en goudbruin",
+    "mode": "Indirect / skillet",
+    "ingredients": [
+      {
+        "qty": 350,
+        "unit": "g",
+        "name": "elleboogmacaroni"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "name": "roomboter"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "bloem"
+      },
+      {
+        "qty": 500,
+        "unit": "ml",
+        "name": "volle melk"
+      },
+      {
+        "qty": 250,
+        "unit": "g",
+        "name": "geraspte cheddar"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "geraspte oude kaas"
+      },
+      {
+        "qty": 80,
+        "unit": "g",
+        "name": "paneermeel"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "Dijonmosterd"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "steps": [
+      "Kook macaroni net beetgaar en giet af. Smelt boter in een pan en roer bloem erdoor; voeg melk in delen toe tot een gladde saus.",
+      "Meng mosterd en kaas door de saus en schep de macaroni erdoor. Doe alles in een ingevette skillet.",
+      "Bestrooi met paneermeel en gaar indirect op 180–200 °C circa 25–30 minuten tot goudbruin en bubbelend.",
+      "Laat 5 minuten staan voor het opscheppen."
+    ],
+    "tip": "Deze vegetarische variant laat de ham uit de inspiratiebron weg. Eén klein stukje rookhout is ruim voldoende.",
+    "source": "https://barbecuebible.com/recipe/grilled-smoked-mac-and-cheese/",
+    "base": 6
+  },
+  {
+    "id": "baked-beans",
+    "title": "Smoky baked beans",
+    "category": "Bijgerechten",
+    "description": "Zoet-pittige bonen die langzaam indikken in een pan.",
+    "time": "2–3 uur",
+    "temp": "110–130 °C",
+    "core": "Heet en ingedikt",
+    "mode": "Indirect / Dutch oven",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "uitgelekte witte en zwarte bonen"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "ui"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 120,
+        "unit": "ml",
+        "name": "BBQ-saus"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "donkere basterdsuiker"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "appelazijn"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "Dijonmosterd"
+      },
+      {
+        "qty": 150,
+        "unit": "ml",
+        "name": "water"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "steps": [
+      "Fruit ui en knoflook kort in de Dutch oven. Meng de bonen, saus, suiker, azijn, mosterd en water erdoor.",
+      "Stabiliseer indirect op 110–130 °C met een klein stukje mild rookhout.",
+      "Laat de pan zonder deksel 2–3 uur zacht garen; roer elk half uur en voeg water toe als het te droog wordt.",
+      "Proef en breng op smaak met zout en peper."
+    ],
+    "tip": "De bonen zijn vegetarisch gehouden; controleer of de gekozen BBQ-saus dat ook is.",
+    "source": "https://barbecuebible.com/recipe/smokehouse-beans/",
+    "base": 6
+  },
+  {
+    "id": "asperges",
+    "title": "Gegrilde asperges met sesam",
+    "category": "Bijgerechten",
+    "description": "Een snel bijgerecht met nootachtige sesam en sojasaus.",
+    "time": "± 25 min",
+    "temp": "210–230 °C",
+    "core": "Beetgaar",
+    "mode": "Direct",
+    "ingredients": [
+      {
+        "qty": 700,
+        "unit": "g",
+        "name": "groene asperges"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "sesamolie"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "sojasaus"
+      },
+      {
+        "qty": 1,
+        "unit": "teen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "sesamzaad"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      }
+    ],
+    "steps": [
+      "Breek de houtige onderkant van de asperges af. Meng sesamolie, sojasaus en fijngehakte knoflook.",
+      "Leg enkele stengels naast elkaar op een spies zodat je ze makkelijk keert. Bestrijk met de marinade.",
+      "Gril direct op 210–230 °C circa 2–4 minuten per zijde tot beetgaar.",
+      "Bestrooi met sesam en geef er citroen bij."
+    ],
+    "tip": "Kies wat dikkere asperges; dunne stengels vallen sneller tussen de roosterstaven.",
+    "source": "https://barbecuebible.com/recipe/wood-grilled-asparagus/",
+    "base": 4
+  },
+  {
+    "id": "banaan-karamel",
+    "title": "Gegrilde banaan met rumkaramel",
+    "category": "Desserts",
+    "description": "Warme banaan met karamel en geroosterde pecannoten.",
+    "time": "± 25 min",
+    "temp": "180–200 °C",
+    "core": "Goudbruin en warm",
+    "mode": "Direct / skillet",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "stevige rijpe bananen"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "roomboter"
+      },
+      {
+        "qty": 70,
+        "unit": "g",
+        "name": "donkere basterdsuiker"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "name": "pecannoten"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "donkere rum"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "vanille-ijs"
+      }
+    ],
+    "steps": [
+      "Smelt boter met suiker in een skillet. Roer de pecannoten erdoor en laat kort bruisen.",
+      "Voeg rum toe en laat enkele minuten inkoken tot saus; steek de saus niet aan.",
+      "Halveer de bananen en gril op de snijkant 2–3 minuten op 180–200 °C.",
+      "Serveer de warme bananen met rumkaramel en vanille-ijs."
+    ],
+    "tip": "Gebruik geen zeer zachte bananen: ze breken bij het keren. Laat alcohol volledig uitkoken als je een mildere saus wilt.",
+    "source": "https://barbecuebible.com/recipe/bananas-foster/",
+    "base": 4
+  },
+  {
+    "id": "chocolade-moelleux",
+    "title": "Chocolade-moelleux",
+    "category": "Desserts",
+    "description": "Zachte chocoladecake uit de kamado.",
+    "time": "± 1 uur",
+    "temp": "170 °C",
+    "core": "Buitenkant gestold, binnen zacht",
+    "mode": "Indirect / skillet",
+    "ingredients": [
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "pure chocolade"
+      },
+      {
+        "qty": 125,
+        "unit": "g",
+        "name": "bloem"
+      },
+      {
+        "qty": 125,
+        "unit": "g",
+        "name": "roomboter"
+      },
+      {
+        "qty": 180,
+        "unit": "g",
+        "name": "suiker"
+      },
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "eieren"
+      },
+      {
+        "qty": 7,
+        "unit": "g",
+        "name": "bakpoeder"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "cacaopoeder"
+      }
+    ],
+    "steps": [
+      "Smelt chocolade en boter voorzichtig samen. Klop eieren en suiker luchtig en spatel het chocolademengsel erdoor.",
+      "Zeef bloem en bakpoeder erboven en spatel kort tot een glad beslag. Doe in een beboterde skillet.",
+      "Bak indirect op 170 °C met extra hitteschild onder de pan circa 25–35 minuten tot de rand stevig is en het midden nog zacht.",
+      "Laat afkoelen en bestuif met cacaopoeder."
+    ],
+    "tip": "De basis levert ongeveer acht bescheiden dessertpunten; snijd pas na afkoelen.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/chocolademoelleux",
+    "base": 8
+  },
+  {
+    "id": "rookpeer",
+    "title": "Gerookte peer met notenvulling",
+    "category": "Desserts",
+    "description": "Zachte peren met een warme vulling van noten en kaneel.",
+    "time": "± 1 uur",
+    "temp": "160–180 °C",
+    "core": "Peer zacht",
+    "mode": "Indirect / rook",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "stevige peren"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "roomboter"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "name": "bruine suiker"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "gehakte hazelnoten"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 5,
+        "unit": "g",
+        "name": "kaneel"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "Griekse yoghurt"
+      }
+    ],
+    "steps": [
+      "Halveer de peren en schep de klokhuizen weg. Besprenkel met citroensap.",
+      "Meng boter, suiker, noten en kaneel en verdeel in de holtes.",
+      "Leg de peren in een hittebestendige schaal en rooster indirect op 160–180 °C met weinig appelhout tot ze zacht zijn, circa 35–50 minuten.",
+      "Serveer warm met een lepel Griekse yoghurt."
+    ],
+    "tip": "De originele bron flambeert met sterke drank; deze variant houdt het eenvoudig op de kamado.",
+    "source": "https://barbecuebible.com/recipe/smoke-roasted-pears/",
+    "base": 4
   }
 ];

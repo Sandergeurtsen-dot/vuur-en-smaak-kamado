@@ -1,8 +1,8 @@
 # Vuur & Smaak — Bastard VX Large
 
-25 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. De oorspronkelijke tien zijn aangevuld met vijftien nieuwe gerechten, waaronder brisket, smashburgers, burnt ends, hele kip, lamsrack, dorade, naan en appelcrumble.
+50 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. Klik op een kaart om een apart receptscherm te openen met stappen, kerntemperatuur en een schaalbare boodschappenlijst. De terugknop en de browserknop brengen je weer naar het overzicht.
 
-Eigen vereenvoudigde varianten, met per recept een link naar de inspiratiebron. Geen officiële merkapp of objectieve ranglijst. De app is gepubliceerd via GitHub Pages; er wordt geen ChatGPT Sites-ruimte gebruikt.
+Eigen vereenvoudigde varianten, met per recept een link naar de inspiratiebron. De uitbreiding is mede geïnspireerd op recepten en technieken van Steven Raichlen en Meathead, naast The Bastard en Big Green Egg. Geen officiële merkapp of objectieve ranglijst. De app is gepubliceerd via GitHub Pages; er wordt geen ChatGPT Sites-ruimte gebruikt.
 
 Live app: https://sandergeurtsen-dot.github.io/vuur-en-smaak-kamado/
 Broncode: https://github.com/Sandergeurtsen-dot/vuur-en-smaak-kamado
@@ -12,7 +12,7 @@ Pak de ZIP volledig uit. Open index.html op je computer. Recepten, schalen, vink
 
 ## Opnieuw publiceren via GitHub Pages
 1. Meld je aan op GitHub en maak een nieuwe **Public** repository, bijvoorbeeld `kamado-recepten`. GitHub Free ondersteunt Pages voor publieke repositories. De bestanden en website worden openbaar.
-2. Kies **Add file → Upload files**. Upload de uitgepakte bestanden uit deze map, niet de ZIP en niet de bovenliggende map. Zorg dat `index.html` direct bovenaan in de repository staat. Bewaar ook de icoontjes, scripts, CSS, het manifest en `sw.js`. Commit de bestanden naar `main`.
+2. Kies **Add file → Upload files**. Upload de uitgepakte bestanden uit deze map, niet de ZIP en niet de bovenliggende map. Zorg dat `index.html` direct bovenaan in de repository staat. Upload ook `kamado-hero.png`, de icoontjes, scripts, CSS, het manifest en `sw.js`. Commit de bestanden naar `main`.
 3. Ga naar **Settings → Pages**. Kies bij **Source**: **Deploy from a branch**. Kies **main** en **/ (root)** en klik **Save**.
 4. Wacht tot de publicatie klaar is. De link staat in Pages en ziet er meestal uit als `https://jouwnaam.github.io/kamado-recepten/`.
 5. Open de link en wacht tot bovenaan **Offline beschikbaar** staat. Test daarna desgewenst met je telefoon in vliegtuigstand.
@@ -30,7 +30,7 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 
 ## Gebruik
 - Zoek op naam of ingrediënt, kies een categorie of toon alleen favorieten.
-- Kies een recept en 1–24 personen. Ingrediënten worden evenredig aangepast; tijd en temperatuur blijven gelijk. Voor grote hoeveelheden zijn meerdere grillrondes nodig.
+- Open een recept en kies 1–24 personen. Ingrediënten worden evenredig aangepast; tijd en temperatuur blijven gelijk. Voor grote hoeveelheden zijn meerdere grillrondes nodig.
 - De hoeveelheden zijn rekenwaarden. Koop hele stuks naar boven afgerond en gebruik de benodigde hoeveelheid; kruid naar smaak.
 - De boodschappenlijst hoort bij één recept en portiegrootte. Vinkjes voor 4 personen blijven apart van die voor 8 personen.
 - Favorieten, de gekozen porties en vinkjes blijven op dit apparaat in dezelfde browser. Er is geen account, tracking of synchronisatie.
@@ -38,9 +38,9 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 - De collectie bevat hoofdgerechten, bijgerechten, brood en desserts. Lees de tip bij het recept voor de portiegrootte: de burnt ends zijn bijvoorbeeld als borrelhap berekend.
 
 ## Bestanden en onderhoud
-`index.html`, `style.css`, `app.js` en `recipes.js` vormen de app. Alle beelden zijn lokaal: een CSS-kamado en eigen appicoontjes. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
+`index.html`, `style.css`, `app.js` en `recipes.js` vormen de app. Alle beelden zijn lokaal: een op de aangeleverde voorbeeldfoto geïnspireerde kamado-afbeelding en eigen appicoontjes. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
 
-`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v3 naar v4), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
+`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v5 naar v6), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
 
 Recepten aanpassen kan in `recipes.js`: `base` is het basisaantal personen; `qty: null` betekent naar smaak. De app is bedoeld voor de meegeleverde vertrouwde receptgegevens, niet voor het importeren van onbekende HTML.
 
