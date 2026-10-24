@@ -1,9 +1,9 @@
 'use strict';
 const $=s=>document.querySelector(s), KEY='vuur-smaak-v1';
 const CATEGORIES=['Rund','Varken','Kip & gevogelte','Lam','Vis & zeevruchten','Vegetarisch','Pizza & brood','Bijgerechten','Desserts'];
-let state={selected:'picanha',people:{},favorites:[],checks:{}};
-try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&typeof s==='object'){state.selected=RECIPES.some(r=>r.id===s.selected)?s.selected:'picanha';state.people=s.people&&typeof s.people==='object'?s.people:{};state.favorites=Array.isArray(s.favorites)?s.favorites.filter(id=>RECIPES.some(r=>r.id===id)):[];state.checks=s.checks&&typeof s.checks==='object'?s.checks:{};}}catch{}
-let onlyFavorites=false,toastTimer;
+let state={selected:'picanha',people:{},favorites:[],checks:{},plan:[],planChecks:{}};
+try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&typeof s==='object'){state.selected=RECIPES.some(r=>r.id===s.selected)?s.selected:'picanha';state.people=s.people&&typeof s.people==='object'?s.people:{};state.favorites=Array.isArray(s.favorites)?s.favorites.filter(id=>RECIPES.some(r=>r.id===id)):[];state.checks=s.checks&&typeof s.checks==='object'?s.checks:{};state.plan=Array.isArray(s.plan)?[...new Set(s.plan.filter(id=>RECIPES.some(r=>r.id===id)))]:[];state.planChecks=s.planChecks&&typeof s.planChecks==='object'?s.planChecks:{};}}catch{}
+let onlyFavorites=false,activeCategory='Alles',toastTimer;
 function toast(t){$('#toast').textContent=t;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').textContent='',3500)}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{toast('Opslaan is niet beschikbaar; wijzigingen gelden voor deze sessie.')}}
 function esc(value){return String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]))}
@@ -13,16 +13,36 @@ function recipe(){return RECIPES.find(r=>r.id===state.selected)}
 function people(r){const n=Number(state.people[r.id]);return Number.isInteger(n)&&n>=1&&n<=24?n:r.base}
 function quantity(i,r){if(i.qty===null)return i.unit;const n=i.qty*people(r)/r.base;const units={stuk:['stuk','stuks'],stuks:['stuk','stuks'],teen:['teen','tenen'],tenen:['teen','tenen'],takje:['takje','takjes'],takjes:['takje','takjes'],plak:['plak','plakken'],plakken:['plak','plakken']};const unit=units[i.unit]?(n===1?units[i.unit][0]:units[i.unit][1]):i.unit;return new Intl.NumberFormat('nl-NL',{maximumFractionDigits:2}).format(n)+' '+unit}
 function checkKey(r,i){return r.id+'-'+people(r)+'-'+i}
+function planRecipes(){return state.plan.map(id=>RECIPES.find(r=>r.id===id)).filter(Boolean)}
+function updatePlanCount(){$('#planCount').textContent=state.plan.length;$('#planLink').setAttribute('aria-label',`Open boodschappenlijst met ${state.plan.length} ${state.plan.length===1?'recept':'recepten'}`)}
+function normalizedUnit(unit){return ({stuks:'stuk',tenen:'teen',takjes:'takje',plakken:'plak',bollen:'bol'})[unit]||unit}
+function amountText(qty,unit){if(qty===null)return unit;const forms={stuk:'stuks',teen:'tenen',takje:'takjes',plak:'plakken',bol:'bollen'},n=forms[unit]?Math.ceil(qty):qty;return new Intl.NumberFormat('nl-NL',{maximumFractionDigits:2}).format(n)+' '+(n===1?unit:forms[unit]||unit)}
+function planItems(){const groups=new Map();for(const r of planRecipes()){for(const i of r.ingredients){const unit=normalizedUnit(i.unit),key=i.name.trim().toLocaleLowerCase('nl-NL')+'|'+unit;if(!groups.has(key))groups.set(key,{key,name:i.name,unit,qty:i.qty===null?null:0,recipes:new Set()});const group=groups.get(key);if(i.qty!==null)group.qty+=i.qty*people(r)/r.base;group.recipes.add(r.title)}}return [...groups.values()].sort((a,b)=>a.name.localeCompare(b.name,'nl'))}
+function planText(){return 'Boodschappenlijst · Vuur & Smaak\n'+planRecipes().map(r=>r.title+' — '+people(r)+' personen').join('\n')+'\n\n'+planItems().map(i=>amountText(i.qty,i.unit)+' '+i.name).join('\n')}
+async function copyWithFallback(value){try{await navigator.clipboard.writeText(value);toast('Boodschappenlijst gekopieerd.')}catch{$('#copyText').value=value;$('#copyDialog').showModal();$('#copyText').select()}}
+function addOrRemovePlan(id){state.plan=state.plan.includes(id)?state.plan.filter(x=>x!==id):[...state.plan,id];save();updatePlanCount();drawPlan();drawRecipe();toast(state.plan.includes(id)?'Toegevoegd aan je kookplan.':'Verwijderd uit je kookplan.')}
+function drawPlan(){const recipes=planRecipes(),items=planItems();updatePlanCount();if(!recipes.length){$('#planContent').innerHTML='<div class="plan-empty"><p class="eyebrow">BOODSCHAPPENLIJST</p><h2>Wat komt er op tafel?</h2><p>Open een recept en voeg het toe aan je kookplan. Ingrediënten van meerdere recepten worden hier samengevoegd.</p><a class="primary" href="#collection">Kies recepten →</a></div>';return}
+  $('#planContent').innerHTML=`<div class="plan-heading"><div><p class="eyebrow">BOODSCHAPPENLIJST</p><h2>Alles voor jouw BBQ.</h2><p>${recipes.length} ${recipes.length===1?'recept':'recepten'} in je kookplan. Kies per gerecht het aantal personen; gelijke ingrediënten met dezelfde eenheid tellen automatisch op. Hele stuks zijn naar boven afgerond voor het inkopen.</p></div><button id="copyPlan" class="primary" type="button">Kopieer lijst ↗</button></div><div class="plan-grid"><section class="plan-selection"><h3>Jouw gerechten</h3>${recipes.map(r=>`<div class="plan-recipe"><img src="${esc(PHOTOS[r.id]?.file||'')}" alt="" loading="lazy"><div><a href="#recept/${esc(r.id)}">${esc(r.title)}</a><label>Personen<input type="number" min="1" max="24" step="1" inputmode="numeric" value="${people(r)}" data-plan-people="${esc(r.id)}" aria-label="Personen voor ${esc(r.title)}"></label></div><button type="button" class="plan-remove" data-plan-remove="${esc(r.id)}" aria-label="Verwijder ${esc(r.title)} uit kookplan">×</button></div>`).join('')}<a class="plan-add" href="#collection">+ Nog een recept kiezen</a></section><section class="plan-shopping"><div class="plan-list-head"><h3>Dit heb je nodig</h3><span id="planProgress" class="muted"></span></div>${items.map(i=>`<label class="plan-item"><input type="checkbox" data-plan-check="${esc(i.key)}" ${state.planChecks[i.key]?'checked':''}><span class="plan-amount">${esc(amountText(i.qty,i.unit))}</span><span>${esc(i.name)}<small>${[...i.recipes].map(esc).join(' · ')}</small></span></label>`).join('')}<button id="clearPlanChecks" class="textbtn" type="button">Vinkjes wissen</button></section></div>`;
+  const progress=()=>{$('#planProgress').textContent=`${items.filter(i=>state.planChecks[i.key]).length} van ${items.length} in huis`};
+  $('#copyPlan').onclick=()=>copyWithFallback(planText());$('#clearPlanChecks').onclick=()=>{items.forEach(i=>delete state.planChecks[i.key]);save();drawPlan()};
+  document.querySelectorAll('[data-plan-check]').forEach(input=>input.onchange=()=>{state.planChecks[input.dataset.planCheck]=input.checked;save();progress()});
+  document.querySelectorAll('[data-plan-remove]').forEach(button=>button.onclick=()=>{state.plan=state.plan.filter(id=>id!==button.dataset.planRemove);save();drawPlan()});
+  document.querySelectorAll('[data-plan-people]').forEach(input=>input.onchange=()=>{const n=Number(input.value);if(!Number.isInteger(n)||n<1||n>24){input.value=people(RECIPES.find(r=>r.id===input.dataset.planPeople));toast('Kies 1 tot 24 personen.');return}state.people[input.dataset.planPeople]=n;save();drawPlan()});progress()}
+const baseDrawRecipe=drawRecipe;
+drawRecipe=function(){baseDrawRecipe();const r=recipe(),button=document.createElement('button'),link=document.createElement('a');button.id='planToggle';button.type='button';button.className='outline plan-toggle';button.textContent=state.plan.includes(r.id)?'− Verwijder uit kookplan':'+ Voeg toe aan kookplan';button.onclick=()=>addOrRemovePlan(r.id);link.href='#boodschappen';link.className='plan-inline-link';link.textContent='Bekijk je boodschappenlijst →';link.hidden=!state.plan.includes(r.id);$('#copy').before(button);button.after(link)};
+function durationMinutes(r){const main=r.time.split('+')[0].replace('±','').trim();const match=main.match(/(\d+[¼½¾]?)(?:\s*[–-]\s*(\d+[¼½¾]?))?\s*(uur|minuten|min)/i);if(!match)return Infinity;const value=match[2]||match[1],fraction={'¼':.25,'½':.5,'¾':.75};const part=value.match(/^(\d+)([¼½¾])?$/);return (Number(part[1])+(fraction[part[2]]||0))*(match[3].toLowerCase()==='uur'?60:1)}
+function setCategory(category){activeCategory=category;document.querySelectorAll('#quickCategories button').forEach(button=>button.setAttribute('aria-pressed',button.dataset.category===category));drawCards();if(location.hash!=='#collection')location.hash='collection';else $('#collection').scrollIntoView({block:'start'})}
 function drawCards(){
-  const q=$('#search').value.trim().toLowerCase(),cat=$('#category').value;
-  const rs=RECIPES.filter(r=>(!onlyFavorites||state.favorites.includes(r.id))&&(cat==='Alles'||r.category===cat)&&[r.title,...r.ingredients.map(i=>i.name)].join(' ').toLowerCase().includes(q));
+  const q=$('#search').value.trim().toLowerCase(),time=$('#timeFilter').value,mode=$('#modeFilter').value;
+  const rs=RECIPES.filter(r=>{const minutes=durationMinutes(r);return (!onlyFavorites||state.favorites.includes(r.id))&&(activeCategory==='Alles'||r.category===activeCategory)&&(mode==='all'||r.mode.toLowerCase().includes(mode))&&(time==='all'||time==='quick'&&minutes<=45||time==='medium'&&minutes>45&&minutes<=120||time==='slow'&&minutes>120)&&[r.title,...r.ingredients.map(i=>i.name)].join(' ').toLowerCase().includes(q)});
   $('#cards').innerHTML=CATEGORIES.map(category=>{
     const group=rs.filter(r=>r.category===category);
     if(!group.length)return '';
-    const cards=group.map(r=>`<button class="card ${r.id===state.selected?'active':''}" data-id="${r.id}" aria-pressed="${r.id===state.selected}">${cardPhoto(r)}<span class="number">${String(RECIPES.indexOf(r)+1).padStart(2,'0')}</span><span class="heart" aria-label="${state.favorites.includes(r.id)?'Favoriet':''}">${state.favorites.includes(r.id)?'♥':''}</span><strong>${r.title}</strong><small>${r.temp}</small></button>`).join('');
+    const cards=group.map(r=>`<button class="card ${r.id===state.selected?'active':''}" data-id="${r.id}" aria-pressed="${r.id===state.selected}">${cardPhoto(r)}<span class="number">${String(RECIPES.indexOf(r)+1).padStart(2,'0')}</span><span class="heart" aria-label="${state.favorites.includes(r.id)?'Favoriet':''}">${state.favorites.includes(r.id)?'♥':''}</span><strong>${r.title}</strong><small class="card-meta"><span>${r.time.split("+")[0].trim()}</span><span>${r.temp}</span></small></button>`).join('');
     return `<section class="category-group"><div class="category-head"><h3>${category}</h3><span>${group.length} ${group.length===1?'recept':'recepten'}</span></div><div class="cards">${cards}</div></section>`;
   }).join('');
-  $('#count').textContent=rs.length?`${rs.length} ${rs.length===1?'recept':'recepten'} · open een kaart voor het volledige recept`:'Geen recepten gevonden. Pas je zoekopdracht of filters aan.';
+  $('#count').textContent=rs.length?`${rs.length} ${rs.length===1?'recept':'recepten'} gevonden`:'Geen recepten gevonden. Pas je zoekopdracht of filters aan.';
+  $('#clearFilters').hidden=!(q||time!=='all'||mode!=='all'||activeCategory!=='Alles'||onlyFavorites);
   $('#cards').querySelectorAll('button').forEach(b=>b.onclick=()=>{const route='recept/'+b.dataset.id;if(location.hash.slice(1)===route)renderRoute();else location.hash=route});
 }
 function air(r){if(['pizza','naan','flammkuchen','focaccia','calzone','borrelbrood','appeltaart','brownie'].includes(r.id))return 'Laat voldoende lucht toe voor het opwarmen van de steen of bakvorm. Verminder de toevoer zodra de doeltemperatuur nadert. Gebruik geen rookhout bij brood, pizza en gebak.';if(['pork','ribs','brisket','burnt-ends','dino-ribs','pulled-lamb','baked-beans','carnitas','lamsschenkel','kerstham','moink-balls'].includes(r.id))return 'Begin met een klein vuur. Knijp de luchttoevoer vroeg terug en houd onder- en bovenventiel op een kleine opening. Stuur in kleine stapjes bij en geef elke wijziging circa 5 minuten.';return 'Breng de kamado met voldoende lucht rustig op temperatuur. Verminder de toevoer vóór je de doeltemperatuur bereikt. Regel onderaan grof en bovenaan fijn; wacht circa 5 minuten tussen aanpassingen.'}
@@ -33,15 +53,21 @@ function renderRoute(){
   const match=location.hash.match(/^#recept\/([a-z0-9-]+)$/);
   const selected=match&&RECIPES.find(r=>r.id===match[1]);
   const detail=Boolean(selected);
-  $('.skip').textContent=detail?'Naar het recept':'Naar de recepten';
+  const plan=location.hash==='#boodschappen';
+  $('.skip').textContent=detail?'Naar het recept':plan?'Naar de boodschappenlijst':'Naar de recepten';
   document.querySelector('main').classList.toggle('detail-open',detail);
+  document.querySelector('main').classList.toggle('plan-open',plan);
   $('#recipe-view').hidden=!detail;
+  $('#plan-view').hidden=!plan;
   if(detail){
     state.selected=selected.id;save();
     $('#detailIndex').textContent=selected.category.toUpperCase()+' / '+String(RECIPES.indexOf(selected)+1).padStart(2,'0')+' VAN '+RECIPES.length;
     document.title=selected.title+' · Vuur & Smaak';
     drawCards();drawRecipe();
     scrollTo(0,0);
+  }else if(plan){
+    document.title='Boodschappenlijst · Vuur & Smaak';
+    drawPlan();scrollTo(0,0);
   }else{
     document.title='Vuur & Smaak · Kamadoboek';
     if(location.hash==='#collection')requestAnimationFrame(()=>$('#collection').scrollIntoView({block:'start'}));
@@ -49,8 +75,12 @@ function renderRoute(){
 }
 addEventListener('hashchange',renderRoute);
 $('#backToCollection').onclick=()=>{location.hash='collection'};
-$('.skip').onclick=e=>{e.preventDefault();const target=document.querySelector('main').classList.contains('detail-open')?$('#recipe'):$('#collection');target.scrollIntoView();target.focus({preventScroll:true})};
-$('#category').innerHTML='<option>Alles</option>'+CATEGORIES.map(c=>`<option>${c}</option>`).join('');$('#search').oninput=drawCards;$('#category').onchange=drawCards;$('#favorites').onclick=()=>{onlyFavorites=!onlyFavorites;$('#favorites').setAttribute('aria-pressed',onlyFavorites);$('#favorites').textContent=onlyFavorites?'♥ Favorieten':'♡ Alleen favorieten';drawCards()};$('#closeDialog').onclick=()=>$('#copyDialog').close();drawCards();renderRoute();
+$('.skip').onclick=e=>{e.preventDefault();const main=document.querySelector('main'),target=main.classList.contains('detail-open')?$('#recipe'):main.classList.contains('plan-open')?$('#plan-view'):$('#collection');target.scrollIntoView();target.focus({preventScroll:true})};
+$('#quickCategories').innerHTML=['Alles',...CATEGORIES].map(c=>`<button type="button" data-category="${esc(c)}" aria-pressed="${c===activeCategory}">${esc(c)}</button>`).join('');
+$('#quickCategories').querySelectorAll('button').forEach(button=>button.onclick=()=>setCategory(button.dataset.category));
+$('#search').oninput=drawCards;$('#timeFilter').onchange=drawCards;$('#modeFilter').onchange=drawCards;
+$('#clearFilters').onclick=()=>{activeCategory='Alles';$('#search').value='';$('#timeFilter').value='all';$('#modeFilter').value='all';onlyFavorites=false;$('#favorites').setAttribute('aria-pressed','false');$('#favorites').textContent='♡ Alleen favorieten';$('#quickCategories').querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',button.dataset.category==='Alles'));drawCards()};
+$('#favorites').onclick=()=>{onlyFavorites=!onlyFavorites;$('#favorites').setAttribute('aria-pressed',onlyFavorites);$('#favorites').textContent=onlyFavorites?'♥ Favorieten':'♡ Alleen favorieten';drawCards()};$('#closeDialog').onclick=()=>$('#copyDialog').close();updatePlanCount();drawCards();renderRoute();
 let offlineReady=false;function updateStatus(){$('#offline').textContent=offlineReady?(navigator.onLine?'● Offline beschikbaar':'● Je kookt offline'):(navigator.onLine?'Voor jouw buitenkeuken':'Geen verbinding')}
 addEventListener('online',updateStatus);addEventListener('offline',updateStatus);
 if('serviceWorker' in navigator && ['https:','http:'].includes(location.protocol)){navigator.serviceWorker.register('./sw.js').then(()=>navigator.serviceWorker.ready).then(()=>{offlineReady=true;updateStatus()}).catch(()=>{$('#offline').textContent='Offline opslaan niet gelukt'})}

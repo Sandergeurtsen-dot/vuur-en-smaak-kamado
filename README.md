@@ -1,6 +1,6 @@
 # Vuur & Smaak — Bastard VX Large
 
-70 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. Elke kaart en elk recept heeft een echte foodfoto als sfeerbeeld. Klik op een kaart om een apart receptscherm te openen met voorbereiding, duidelijke stappen, kerntemperatuur en een schaalbare boodschappenlijst. De terugknop en de browserknop brengen je weer naar het overzicht.
+70 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. Elke kaart en elk recept heeft een echte foodfoto als sfeerbeeld. Gebruik de categorieknoppen en filters voor bereidingstijd en directe of indirecte hitte om een recept te vinden. Klik op een kaart om een apart receptscherm te openen met voorbereiding, duidelijke stappen, kerntemperatuur en schaalbare ingrediënten. Je kunt meerdere recepten aan één kookplan toevoegen en de samengevoegde boodschappenlijst afvinken of kopiëren.
 
 Eigen vereenvoudigde varianten, met per recept een link naar de inspiratiebron. De uitbreiding is mede geïnspireerd op recepten en technieken van Steven Raichlen en Meathead, naast The Bastard en Big Green Egg. Geen officiële merkapp of objectieve ranglijst. De app is gepubliceerd via GitHub Pages; er wordt geen ChatGPT Sites-ruimte gebruikt.
 
@@ -30,9 +30,12 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 
 ## Gebruik
 - Zoek op naam of ingrediënt, kies een categorie of toon alleen favorieten.
+- Filter op bereidingstijd of directe/indirecte hitte. De tijdsfilter gebruikt de vermelde bereidingstijd vóór eventuele marinade-, rijs- of rusttijd.
 - Open een recept en kies 1–24 personen. Ingrediënten worden evenredig aangepast; tijd en temperatuur blijven gelijk. Voor grote hoeveelheden zijn meerdere grillrondes nodig.
+- Voeg meerdere recepten toe aan het kookplan via de knop in het recept. Open **Lijst** bovenaan voor de samengevoegde boodschappenlijst. Gelijke ingrediënten met dezelfde eenheid worden opgeteld; andere eenheden blijven apart. Je kunt het aantal personen per gerecht daar nog wijzigen.
 - De hoeveelheden zijn rekenwaarden. Koop hele stuks naar boven afgerond en gebruik de benodigde hoeveelheid; kruid naar smaak.
-- De boodschappenlijst hoort bij één recept en portiegrootte. Vinkjes voor 4 personen blijven apart van die voor 8 personen.
+- De boodschappenlijst binnen een afzonderlijk recept hoort bij die portiegrootte. Vinkjes voor 4 personen blijven apart van die voor 8 personen.
+- De gecombineerde lijst heeft eigen vinkjes. De afvinkbare lijst in een afzonderlijk recept blijft daarvan gescheiden.
 - Favorieten, de gekozen porties en vinkjes blijven op dit apparaat in dezelfde browser. Er is geen account, tracking of synchronisatie.
 - De app en recepten werken offline na de eerste volledige online opening. Gerechtfoto’s worden opgeslagen zodra ze online in beeld zijn geweest; foto’s van nog niet bekeken recepten kunnen offline ontbreken. Bronwebsites blijven internet nodig hebben. Een browser kan lokale opslag wissen; dit is geen gegarandeerde permanente back-up.
 - De collectie bevat hoofdgerechten, bijgerechten, brood en desserts. Lees de tip bij het recept voor de portiegrootte: de burnt ends zijn bijvoorbeeld als borrelhap berekend.
@@ -40,7 +43,7 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 ## Bestanden en onderhoud
 `index.html`, `style.css`, `app.js`, `recipes.js` en `photos.js` vormen de app. De 70 gerechtfoto’s staan lokaal in `images/`; de volledige naamsvermelding en licenties staan in `FOTOBRONNEN.md` en bij de foto’s op de receptschermen. Het zijn sfeerbeelden, geen foto’s van de exacte bereidingswijze. Het omslagbeeld is digitaal gemaakt op basis van de aangeleverde kamado-referentie en is geen officiële productfoto. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
 
-`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v13 naar v14), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
+`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v14 naar v15), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
 
 Recepten aanpassen kan in `recipes.js`: `base` is het basisaantal personen; `qty: null` betekent naar smaak. De app is bedoeld voor de meegeleverde vertrouwde receptgegevens, niet voor het importeren van onbekende HTML.
 
