@@ -43,3 +43,6 @@
 @media(prefers-reduced-motion:reduce){.card-photo img{transition:none}}
 
 @media(max-width:650px){.recipehead>.outline{min-width:80px;white-space:nowrap}}
+
+/* Recipe mise en place */
+.prep-note{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:17px 0 15px;margin-bottom:25px}.prep-note strong{display:block;font:700 10px/1.5 system-ui,sans-serif;text-transform:uppercase;letter-spacing:1.7px;color:var(--rust)}.prep-note p{font-size:14px;line-height:1.6;margin:7px 0 0;color:#554e42}

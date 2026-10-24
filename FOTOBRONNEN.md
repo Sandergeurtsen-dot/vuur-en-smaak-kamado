@@ -52,3 +52,23 @@ De afbeeldingen zijn sfeerbeelden bij de recepten; ze tonen niet noodzakelijk de
 48. **banaan-karamel** — [Grilled Bananas van Thriving Vegetarian](https://www.flickr.com/photos/90155432@N02/9612708088) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
 49. **chocolade-moelleux** — [Chocolate Lava Cake Dessert Coral Reef Restaurant Living Seas Epcot Center van mrkathika](https://www.flickr.com/photos/23842402@N07/2541178483) · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
 50. **rookpeer** — [Mum's Baked Pears in Red Wine van avlxyz](https://www.flickr.com/photos/10559879@N00/4763304655) · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+51. **entrecote-chimichurri** — [Grilled Ribeye served with sauteed mushrooms and onions, corn on-the-cob, and steamed rice. Homemade chimichurri on top of steak. #foodstrava van mariojas1](https://www.flickr.com/photos/25284959@N04/14234767155) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+52. **t-bone** — [File:Bistecca alla Fiorentina.jpg van Lucarelli](https://commons.wikimedia.org/w/index.php?curid=982985) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+53. **moink-balls** — [Bacon-Frikadellen (6703585583).jpg van Katrin Gilger](https://commons.wikimedia.org/wiki/File:Bacon-Frikadellen_%286703585583%29.jpg) · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+54. **carnitas** — [Mexican Pulled Pork (Carnitas) Tacos with Corn-and-Red-Onion Salsa van thebittenword.com](https://www.flickr.com/photos/22198928@N00/2404689541) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+55. **aziatisch-buikspek** — [Roasted Belly Pork with crispy skin, BBQ Roasted Pork van T.Tseng](https://www.flickr.com/photos/68147320@N02/33546099655) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+56. **kerstham** — [Roast Ham van timsackton](https://www.flickr.com/photos/43581314@N08/6621135771) · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+57. **jerk-kip** — [Jerk chicken july 05.jpg van Caroline Ford](https://commons.wikimedia.org/wiki/File:Jerk_chicken_july_05.jpg) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+58. **butter-chicken** — [Butter Chicken Curry van junyaogura](https://www.flickr.com/photos/73344268@N00/3291448439) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+59. **lamskoteletten** — [Grilled Lamb Chop van Charles Haynes](https://www.flickr.com/photos/87232391@N00/9152469676) · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+60. **lamsschenkel** — [Port-braised lamb shanks van Maggie Hoffman](https://www.flickr.com/photos/8830972@N08/3345758570) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+61. **zalmforel** — [Smoked trout, pickled onions, capers, avocado toast van T.Tseng](https://www.flickr.com/photos/68147320@N02/10865060114) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+62. **coquilles** — [Grilled Scallops with Mexican Corn Salad van thebittenword.com](https://www.flickr.com/photos/22198928@N00/2575445490) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+63. **halloumi-groenten** — [Grilled halloumi, peppers and tomatoes van Ruth and Dave](https://www.flickr.com/photos/95142644@N00/36485067785) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+64. **gevulde-paprika** — [Quinoa stuffed peppers.jpg van Mark Bonica](https://commons.wikimedia.org/wiki/File:Quinoa_stuffed_peppers.jpg) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+65. **calzone** — [Calzone Pizza van wales_gibbons](https://www.flickr.com/photos/9678460@N07/8686014577) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+66. **borrelbrood** — [Korean cream cheese garlic bread.jpg van Asecretfanfare](https://commons.wikimedia.org/wiki/File:Korean_cream_cheese_garlic_bread.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+67. **ratatouille** — [Ratatouille in French oven van trenttsd](https://www.flickr.com/photos/84335369@N00/4931587205) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+68. **honingwortels** — [And of course, roasted honey carrots with thyme van whatleydude](https://www.flickr.com/photos/85318305@N00/5723118715) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+69. **brownie** — [Fudgy Chocolate Brownies with Macadamia Nuts van Kelly Hunter](https://www.flickr.com/photos/47149893@N07/15410404930) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+70. **appeltaart** — [Apple Pie van Happy Krissy](https://www.flickr.com/photos/53503060@N06/6079924588) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).

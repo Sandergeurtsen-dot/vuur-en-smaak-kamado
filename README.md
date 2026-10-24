@@ -1,6 +1,6 @@
 # Vuur & Smaak — Bastard VX Large
 
-50 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. Elke kaart en elk recept heeft een echte foodfoto als sfeerbeeld. Klik op een kaart om een apart receptscherm te openen met stappen, kerntemperatuur en een schaalbare boodschappenlijst. De terugknop en de browserknop brengen je weer naar het overzicht.
+70 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. Elke kaart en elk recept heeft een echte foodfoto als sfeerbeeld. Klik op een kaart om een apart receptscherm te openen met voorbereiding, duidelijke stappen, kerntemperatuur en een schaalbare boodschappenlijst. De terugknop en de browserknop brengen je weer naar het overzicht.
 
 Eigen vereenvoudigde varianten, met per recept een link naar de inspiratiebron. De uitbreiding is mede geïnspireerd op recepten en technieken van Steven Raichlen en Meathead, naast The Bastard en Big Green Egg. Geen officiële merkapp of objectieve ranglijst. De app is gepubliceerd via GitHub Pages; er wordt geen ChatGPT Sites-ruimte gebruikt.
 
@@ -38,9 +38,9 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 - De collectie bevat hoofdgerechten, bijgerechten, brood en desserts. Lees de tip bij het recept voor de portiegrootte: de burnt ends zijn bijvoorbeeld als borrelhap berekend.
 
 ## Bestanden en onderhoud
-`index.html`, `style.css`, `app.js`, `recipes.js` en `photos.js` vormen de app. De 50 gerechtfoto’s staan lokaal in `images/`; de volledige naamsvermelding en licenties staan in `FOTOBRONNEN.md` en bij de foto’s op de receptschermen. Het zijn sfeerbeelden, geen foto’s van de exacte bereidingswijze. De omslag gebruikt eveneens een echte gerechtfoto. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
+`index.html`, `style.css`, `app.js`, `recipes.js` en `photos.js` vormen de app. De 70 gerechtfoto’s staan lokaal in `images/`; de volledige naamsvermelding en licenties staan in `FOTOBRONNEN.md` en bij de foto’s op de receptschermen. Het zijn sfeerbeelden, geen foto’s van de exacte bereidingswijze. De omslag gebruikt eveneens een echte gerechtfoto. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
 
-`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v9 naar v10), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
+`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v11 naar v12), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
 
 Recepten aanpassen kan in `recipes.js`: `base` is het basisaantal personen; `qty: null` betekent naar smaak. De app is bedoeld voor de meegeleverde vertrouwde receptgegevens, niet voor het importeren van onbekende HTML.
 

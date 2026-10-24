@@ -49,7 +49,8 @@ const RECIPES = [
     ],
     "tip": "De bron serveert het vlees rozer. Deze variant gebruikt de conservatievere veilige kerntemperatuur van 63 °C met minstens 3 minuten rust.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/geroosterde-picanha",
-    "base": 4
+    "base": 4,
+    "prep": "Haal het vlees 30 minuten voor bereiding uit de koelkast. Zet een lekbak onder het rooster en houd een schoon bord klaar voor het rusten."
   },
   {
     "id": "ribs",
@@ -102,7 +103,8 @@ const RECIPES = [
     ],
     "tip": "3-2-1 is een richtlijn, geen timerwet. Dunne babybacks zijn vaak eerder mals; laat de suiker niet verbranden.",
     "source": "https://thebastard.com/en/blogs/recipes/baby-back-ribs",
-    "base": 4
+    "base": 4,
+    "prep": "Reken op een lange sessie met stabiele hitte. Leg folie, appelsap, een kwast en een kernthermometer klaar vóór de ribs op het rooster gaan."
   },
   {
     "id": "pork",
@@ -159,7 +161,8 @@ const RECIPES = [
     ],
     "tip": "Een groot stuk kan 16 uur nodig hebben. Plan marge; extra personen betekenen niet automatisch evenredig meer kooktijd.",
     "source": "https://www.biggreenegg.eu/nl/pulled-pork-kamado-recepten",
-    "base": 8
+    "base": 8,
+    "prep": "Begin vroeg of bereid een dag vooruit. Gebruik een kernthermometer die tijdens het garen kan blijven zitten en bewaar het braadvocht voor het mengen."
   },
   {
     "id": "kip",
@@ -231,7 +234,8 @@ const RECIPES = [
     ],
     "tip": "Houd de stukken losjes op de spies, zodat de warmte alle kanten bereikt.",
     "source": "https://thebastard.com/en/blogs/recipes/peri-peri-chicken",
-    "base": 4
+    "base": 4,
+    "prep": "Snijd de kip in stukken van gelijke dikte en laat de spiesen niet dicht opeen zitten. Bewaar een schone portie saus apart om te serveren."
   },
   {
     "id": "zalm",
@@ -283,7 +287,8 @@ const RECIPES = [
     ],
     "tip": "Gebruik alleen hout dat voor voedselbereiding geschikt is. Deze variant gaart verder dan sommige recepten voor rosé zalm.",
     "source": "https://www.kustermann.de/media/a2/9f/a8/1755765562/626084_Bas%2022%20Manual%20WEB.pdf?ts=1760963090",
-    "base": 4
+    "base": 4,
+    "prep": "Gebruik uitsluitend een onbehandelde plank die voor voedsel bedoeld is. Leg citroen en een tang klaar; de plank blijft na het grillen lang heet."
   },
   {
     "id": "pizza",
@@ -339,8 +344,9 @@ const RECIPES = [
       "Voeg basilicum en een scheut olie toe. Bak de volgende pizza wanneer de steen weer goed heet is."
     ],
     "tip": "We gebruiken kant-en-klaar deeg en een gematigde pizzatemperatuur. Gebruik geen bakpapier boven de aangegeven maximumtemperatuur.",
-    "source": "https://thebastard.com/blogs/recipes/grilled-prawns-with-chermoula",
-    "base": 4
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/basic-pizza",
+    "base": 4,
+    "prep": "Bereid beleg en deegbollen voordat de steen heet is. Gebruik weinig saus en laat mozzarella uitlekken: zo blijft de bodem krokant."
   },
   {
     "id": "bloemkool",
@@ -402,7 +408,8 @@ const RECIPES = [
     ],
     "tip": "Bij grote bloemkoolstukken duurt het langer. Als bijgerecht zijn de porties ruim; serveer met brood of granen als hoofdgerecht.",
     "source": "https://www.koppertcress.com/nl/recepten/bloemkool-curry-van-de-bbq",
-    "base": 4
+    "base": 4,
+    "prep": "Snijd roosjes ongeveer even groot. Maak de yoghurt vooraf en houd een deel koel voor op tafel; daarop komt de warme bloemkool."
   },
   {
     "id": "portobello",
@@ -459,7 +466,8 @@ const RECIPES = [
     ],
     "tip": "Een voorgerecht of bijgerecht: één portobello per persoon. Voor een hoofdgerecht verdubbel je en voeg je brood of een salade toe.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gevulde-portobellos-met-parmezaan-en-truffel",
-    "base": 4
+    "base": 4,
+    "prep": "Borstel de paddenstoelen schoon en verwijder de stelen zonder de hoed te scheuren. Bak een proefstukje vulling om de kruiding te controleren."
   },
   {
     "id": "aardappel",
@@ -511,7 +519,8 @@ const RECIPES = [
     ],
     "tip": "Neem aardappels van ongeveer gelijke grootte. De tijd wordt bepaald door hun dikte, niet door het aantal personen.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/geroosterde-hasselback-aardappels-met-kruidenolie",
-    "base": 4
+    "base": 4,
+    "prep": "Leg twee eetstokjes naast elke aardappel tijdens het insnijden; zo snijd je niet door de onderkant heen. Gebruik aardappels van gelijke maat."
   },
   {
     "id": "ananas",
@@ -563,7 +572,8 @@ const RECIPES = [
     ],
     "tip": "Maak dit als afsluiter op restwarmte, maar verwijder eerst vleesresten van het rooster.",
     "source": "https://mrandmsinthekitchen.nl/gegrilde-ananas-van-de-bbq/",
-    "base": 4
+    "base": 4,
+    "prep": "Snijd de parten dik genoeg om te kunnen keren. Houd het ijs in de vriezer tot de ananas van het rooster komt."
   },
   {
     "id": "bavette",
@@ -629,7 +639,8 @@ const RECIPES = [
     ],
     "tip": "Dwars op de lange vezels snijden maakt bavette malser. De bron serveert het vlees rozer; hier staat een conservatieve veilige temperatuur.",
     "source": "https://www.biggreenegg.eu/en/inspiration/recipes/grilled-bavette",
-    "base": 4
+    "base": 4,
+    "prep": "Bekijk vóór het grillen de richting van de grove vleesvezels. Na het rusten snijd je haaks daarop; dat maakt de bavette merkbaar malser."
   },
   {
     "id": "smashburger",
@@ -690,7 +701,8 @@ const RECIPES = [
     ],
     "tip": "Werk in rondes zodat de plaat heet blijft; per broodje zijn twee dunne burgers gerekend.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/smash-burger",
-    "base": 4
+    "base": 4,
+    "prep": "Maak losse gehaktballen en druk ze pas op de gloeiend hete plaat plat. Werk in rondes zodat het vlees echt bakt in plaats van stoomt."
   },
   {
     "id": "brisket",
@@ -741,7 +753,8 @@ const RECIPES = [
     ],
     "tip": "Een stuk van 1,8 kg gaart anders dan een hele packer; de tijd varieert sterk. Voor grote groepen zijn meerdere stukken of rondes nodig.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/low-en-slow-gegaarde-brisket",
-    "base": 4
+    "base": 4,
+    "prep": "Plan ruim extra tijd in: dikte en vetgehalte bepalen de gaartijd. Zorg voor voldoende houtskool, een lekbak en een warme plek om te rusten."
   },
   {
     "id": "burnt-ends",
@@ -792,7 +805,8 @@ const RECIPES = [
     ],
     "tip": "Dit is een borrelhap voor circa tien personen. Als hoofdgerecht is de portie per persoon groter.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/burnt-ends-van-buikspek",
-    "base": 10
+    "base": 10,
+    "prep": "Snijd blokjes van gelijke maat zodat ze tegelijk zacht worden. Houd de zoete saus klaar voor de laatste fase, zodat de suiker niet verbrandt."
   },
   {
     "id": "varkenshaas",
@@ -843,7 +857,8 @@ const RECIPES = [
     ],
     "tip": "Breng de mosterd pas na het aanbraden aan; zo verbrandt de korst niet.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/blog-en-events/wat-is-de-juiste-kerntemperatuur",
-    "base": 4
+    "base": 4,
+    "prep": "Verwijder het zilvervlies met een scherp mesje. Omdat het stuk mager is, meet je de kern vroeg en gaar je zo nodig rustig indirect verder."
   },
   {
     "id": "hele-kip",
@@ -899,7 +914,8 @@ const RECIPES = [
     ],
     "tip": "Een hele kip is voor circa vier personen. Bij meer personen zijn meerdere kippen nodig.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/beer-can-chicken",
-    "base": 4
+    "base": 4,
+    "prep": "Dep ook de holte van de kip droog. Zet de vleugeltoppen onder de rug en plaats de thermometer straks in het dikste deel van de dij."
   },
   {
     "id": "wings",
@@ -960,7 +976,8 @@ const RECIPES = [
     ],
     "tip": "Geef elke wing ruimte; bak een volle grill in meerdere rondes.",
     "source": "https://www.biggreenegg.eu/be_nl/inspiratie/recepten/gekruide-kippenvleugels",
-    "base": 4
+    "base": 4,
+    "prep": "Droge huid geeft een betere korst. Leg de vleugels ruim uit elkaar op het rooster en houd een schone schaal klaar voor de gare kip."
   },
   {
     "id": "lamsrack",
@@ -1016,7 +1033,8 @@ const RECIPES = [
     ],
     "tip": "De bron serveert rosé; deze versie kiest 63 °C met rust. Een halve rack per persoon is de basisportie.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gegrilde-lamsrack",
-    "base": 4
+    "base": 4,
+    "prep": "Haal het vlies aan de vleeskant weg en bescherm de uitstekende botjes eventueel met folie. Maak de kruidenkorst kort voor het grillen."
   },
   {
     "id": "gambas",
@@ -1082,7 +1100,8 @@ const RECIPES = [
     ],
     "tip": "Marineer schaaldieren niet lang in citroensap, anders verandert de structuur.",
     "source": "https://thebastard.com/blogs/recipes/grilled-prawns-with-chermoula",
-    "base": 4
+    "base": 4,
+    "prep": "Dep de gamba’s goed droog en rijg ze desgewenst per twee op spiesen tegen omkrullen. De schone serveersaus mag geen rauwe vis raken."
   },
   {
     "id": "dorade",
@@ -1133,7 +1152,8 @@ const RECIPES = [
     ],
     "tip": "Een visklem maakt keren eenvoudiger. Voor een royaal hoofdgerecht kies je een vis per persoon.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gegrilde-hele-dorade-in-tomatensaus",
-    "base": 4
+    "base": 4,
+    "prep": "Vraag de visboer om de vissen schoon te maken. Vet een schone visklem of het rooster in en keer pas als de huid vanzelf loslaat."
   },
   {
     "id": "aubergine",
@@ -1194,7 +1214,8 @@ const RECIPES = [
     ],
     "tip": "Miso en sojasaus zijn al zout. Serveer met rijst voor een complete maaltijd.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gegrilde-aubergine-met-zalm-yellowtail-en-miso",
-    "base": 4
+    "base": 4,
+    "prep": "Snijd alleen het vruchtvlees in, niet door de schil. De misolak bevat suiker en gaat daarom pas in de laatste minuten op de aubergine."
   },
   {
     "id": "naan",
@@ -1265,7 +1286,8 @@ const RECIPES = [
     ],
     "tip": "De basis geeft vier grote naan, één per persoon. Gebruik een hitteschild onder de steen.",
     "source": "https://www.biggreenegg.eu/be_nl/inspiratie/recepten/naanbrood-2",
-    "base": 4
+    "base": 4,
+    "prep": "Houd extra bloem en een tang bij de hand. Rol de deegstukken vlak voor het bakken uit; op een hete steen kleuren ze snel."
   },
   {
     "id": "mais",
@@ -1309,13 +1331,16 @@ const RECIPES = [
       }
     ],
     "steps": [
-      "Meng zachte boter met limoenrasp, fijngehakte chili, koriander en een snuf zout.",
-      "Stabiliseer direct op 190–210 °C. Gril de kolven 10–15 minuten en draai ze regelmatig.",
-      "Besmeer de hete kolven met chili-limoenboter en serveer."
+      "Meng zachte boter met limoenrasp, fijngehakte chili, koriander en een snuf zout. Zet de boter koel weg terwijl de kamado opwarmt.",
+      "Verhit het rooster direct tot 190–210 °C. Bestrijk de droge maiskolven dun met olie en leg ze dwars op het rooster.",
+      "Gril 12–15 minuten met gesloten deksel. Keer elke 3–4 minuten zodat alle kanten goudbruin kleuren; verplaats bij donkere plekken naar de rand.",
+      "Prik in een korrel: hij moet heet en sappig zijn. Neem de kolven met een tang van het rooster.",
+      "Besmeer onmiddellijk met chili-limoenboter en geef er extra limoen bij."
     ],
     "tip": "Voor rauwe maïs: pof de kolven eerst indirect tot gaar en geef ze daarna kort kleur boven direct vuur.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/mexicaanse-tapas",
-    "base": 4
+    "base": 4,
+    "prep": "Verwijder losse draadjes en dep de kolven droog. Zet de boter vooraf klaar zodat die op de hete mais direct kan smelten."
   },
   {
     "id": "appelcrumble",
@@ -1376,7 +1401,8 @@ const RECIPES = [
     ],
     "tip": "Een skillet van circa 25–27 cm geeft zes dessertporties. Voor meer personen zijn meerdere pannen of rondes nodig.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/appelcrumble",
-    "base": 6
+    "base": 6,
+    "prep": "Gebruik stevige appels die hun vorm houden. Zet de skillet op een hittebestendige ondergrond en laat het borrelende fruit even tot rust komen."
   },
   {
     "id": "perzik",
@@ -1420,13 +1446,16 @@ const RECIPES = [
       }
     ],
     "steps": [
-      "Halveer de perziken en verwijder de pit. Meng mascarpone met citroenrasp en de helft van de honing.",
-      "Stabiliseer direct op 180–200 °C. Gril de perziken met snijkant omlaag circa 3–5 minuten.",
-      "Keer kort en laat het vruchtvlees zacht worden. Serveer per persoon twee helften met mascarpone, honing, pistache en munt."
+      "Halveer de perziken en verwijder de pit. Meng mascarpone met citroenrasp en de helft van de honing; zet koel weg.",
+      "Verwarm het rooster direct tot 180–200 °C en vet het snijvlak van de perziken heel licht in.",
+      "Leg de helften met het snijvlak omlaag op het rooster. Gril 3–4 minuten met gesloten deksel tot er duidelijke strepen verschijnen.",
+      "Keer voorzichtig en laat nog 2–3 minuten garen. De vrucht moet warm en zacht zijn, maar zijn vorm behouden.",
+      "Serveer per persoon twee helften met mascarpone, de rest van de honing, pistache en munt."
     ],
     "tip": "Gebruik stevig fruit; zeer rijpe perziken vallen snel uiteen.",
     "source": "https://www.douglasdeal.nl/pages/bbq-recepten",
-    "base": 4
+    "base": 4,
+    "prep": "Kies rijpe maar stevige vruchten. Vet het snijvlak licht in en maak de mascarpone klaar voordat de perziken de grill raken."
   },
   {
     "id": "tomahawk",
@@ -1482,7 +1511,8 @@ const RECIPES = [
     ],
     "tip": "Een steak van 1,2 kg bevat ook bot. Voor vier personen is dit een gedeeld hoofdgerecht met bijgerechten.",
     "source": "https://barbecuebible.com/2026/10/16/how-to-grill-a-tomahawk-steak/",
-    "base": 4
+    "base": 4,
+    "prep": "Meet in het dikste vleesdeel, zonder het bot te raken. Bereid de boter tijdens de indirecte fase en houd een grote plank klaar."
   },
   {
     "id": "dino-ribs",
@@ -1528,7 +1558,8 @@ const RECIPES = [
     ],
     "tip": "Beef plate ribs zijn forse stukken; vraag de slager specifiek naar dit deel. De priktest is belangrijker dan een exact getal.",
     "source": "https://barbecuebible.com/2026/10/09/dino-bones-beef-plate-ribs/",
-    "base": 4
+    "base": 4,
+    "prep": "Vlees tussen de ribben is dik en vraagt geduld. Gebruik weinig rookhout en steek de thermometer niet tegen het bot."
   },
   {
     "id": "carne-asada",
@@ -1599,7 +1630,8 @@ const RECIPES = [
     ],
     "tip": "Gebruik voor grote groepen een tweede grillronde: een volle plancha geeft geen goede korst.",
     "source": "https://barbecuebible.com/recipe/carne-asada-griddle-tacos-with-shrimp-bites/",
-    "base": 4
+    "base": 4,
+    "prep": "Snijd het vlees na het grillen dun dwars op de vezel. Zet tortilla’s en verse toppings klaar vóór je aan het hete grillwerk begint."
   },
   {
     "id": "porchetta",
@@ -1660,7 +1692,8 @@ const RECIPES = [
     ],
     "tip": "Een spit geeft gelijkmatige crackling; op een rooster kan ook, draai dan af en toe en houd de huid droog.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/porchetta",
-    "base": 10
+    "base": 10,
+    "prep": "Een droog zwoerd is de sleutel tot een knapperige korst. Bind de rol stevig op en zet een lekbak neer voor het smeltende vet."
   },
   {
     "id": "secreto",
@@ -1716,7 +1749,8 @@ const RECIPES = [
     ],
     "tip": "Secreto is dun en gaart snel; houd een indirecte plek vrij als het vet opvlamt.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/menus/er-mag-gerookt-worden",
-    "base": 4
+    "base": 4,
+    "prep": "Dit dunne, gemarmerde stuk gaart snel. Zet eerst de paprika klaar en gril het vlees pas vlak voor het eten."
   },
   {
     "id": "karbonade-appel",
@@ -1772,7 +1806,8 @@ const RECIPES = [
     ],
     "tip": "Zet een apart kommetje glaze voor serveren weg voordat je rauw vlees lakt.",
     "source": "https://barbecuebible.com/recipe/pork-chops-with-spicy-apple-barbecue-sauce/",
-    "base": 4
+    "base": 4,
+    "prep": "Gebruik karbonades van vergelijkbare dikte. Houd een koelere uitwijkplek op het rooster vrij als de zoete glaze donker kleurt."
   },
   {
     "id": "kalkoenborst",
@@ -1823,7 +1858,8 @@ const RECIPES = [
     ],
     "tip": "Kalkoenborst kan snel uitdrogen; gebruik een kernthermometer en beperk rookhout.",
     "source": "https://amazingribs.com/tested-recipes/turkey-recipes/ultimate-bbq-turkey-recipe/",
-    "base": 4
+    "base": 4,
+    "prep": "Een pekel is optioneel; droog de borst in elk geval goed af. Plaats de thermometer midden in het dikste deel."
   },
   {
     "id": "alabama-kip",
@@ -1879,7 +1915,8 @@ const RECIPES = [
     ],
     "tip": "Lak deze saus niet op rauwe kip: serveer hem schoon aan tafel.",
     "source": "https://barbecuebible.com/recipe/chicken-thighs-with-alabama-white-barbecue-sauce/",
-    "base": 4
+    "base": 4,
+    "prep": "Maak de witte saus vooraf en zet die in de koelkast. Gebruik aparte tangen en kwasten voor rauwe en gare kip."
   },
   {
     "id": "yakitori",
@@ -1940,7 +1977,8 @@ const RECIPES = [
     ],
     "tip": "De basis is een hoofdgerecht voor vier met rijst; als borrelhap levert het meer kleine spiesen.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/yakitori-spiesjes",
-    "base": 4
+    "base": 4,
+    "prep": "Metalen spiesen geleiden warmte goed; bij houten spiesen week je ze vooraf. Houd de kipstukjes gelijk van formaat."
   },
   {
     "id": "pulled-lamb",
@@ -2001,7 +2039,8 @@ const RECIPES = [
     ],
     "tip": "De bron combineert roken en ovenbraden; deze versie houdt de hele garing op de kamado.",
     "source": "https://barbecuebible.com/recipe/pulled-lamb-bbq/",
-    "base": 6
+    "base": 6,
+    "prep": "Zet een pan of bak onder de schouder om smaakvol vocht op te vangen. Gaar op malsheid, niet alleen op de klok."
   },
   {
     "id": "lamskofta",
@@ -2062,7 +2101,8 @@ const RECIPES = [
     ],
     "tip": "Gebruik koele handen en knijp het gehakt stevig om de spies; anders kan het loskomen.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/lamsgehaktballetjes-met-yoghurtdip",
-    "base": 4
+    "base": 4,
+    "prep": "Meng het gehakt kort en koel de gevormde spiesen 20 minuten. Zo blijven ze beter op hun plek tijdens het keren."
   },
   {
     "id": "kabeljauw",
@@ -2123,7 +2163,8 @@ const RECIPES = [
     ],
     "tip": "De saus kan schiften als hij kookt. De bron gebruikt een lagere culinaire kerntemperatuur; deze versie 63 °C.",
     "source": "https://thebastard.com/blogs/recipes/barry-fish",
-    "base": 4
+    "base": 4,
+    "prep": "Dep de vis droog en verwarm de plaat goed voor. Begin de saus op tijd, maar klop de koude boter er pas vlak voor serveren door."
   },
   {
     "id": "sesam-tonijn",
@@ -2184,7 +2225,8 @@ const RECIPES = [
     ],
     "tip": "De inspiratiebron is een rauwe tataki; deze variant gaart de tonijn volledig voor een conservatievere veiligheidsmarge.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/tonijn-tataki-sesamzaad",
-    "base": 4
+    "base": 4,
+    "prep": "Gebruik voor kort geschroeide tonijn vis van geschikte kwaliteit en overleg bij twijfel met de visboer. Houd de schone dressing apart."
   },
   {
     "id": "makreel",
@@ -2230,7 +2272,8 @@ const RECIPES = [
     ],
     "tip": "Controleer na het fileren zorgvuldig op graten.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gestoomde-en-gerookte-makreel",
-    "base": 4
+    "base": 4,
+    "prep": "Dep na het zouten de huid extra droog. Zet een lekbak onder de vis en gebruik een klein beetje mild rookhout."
   },
   {
     "id": "biet-bimi",
@@ -2296,7 +2339,8 @@ const RECIPES = [
     ],
     "tip": "Roostertijden voor bieten hangen sterk af van de grootte; een mes moet makkelijk naar binnen gaan.",
     "source": "https://thebastard.com/blogs/recipes/roasted-beet-with-grilled-bimi-and-soft-cheese",
-    "base": 4
+    "base": 4,
+    "prep": "Draag eventueel handschoenen bij de biet. De ingelegde ui kan vooraf; gril de bimi pas vlak voor het serveren."
   },
   {
     "id": "pompoensoep",
@@ -2362,7 +2406,8 @@ const RECIPES = [
     ],
     "tip": "Voor een hoofdgerecht kun je er knoflook-naan bij serveren; de lijst zelf bevat alleen de soep.",
     "source": "https://thebastard.com/en/blogs/recipes/winter-pumpkin-soup",
-    "base": 4
+    "base": 4,
+    "prep": "Snijd de pompoen stabiel op een plank en bewaar de pitten apart. Zet een hittebestendige blender of staafmixer klaar."
   },
   {
     "id": "kool-wedges",
@@ -2418,7 +2463,8 @@ const RECIPES = [
     ],
     "tip": "Laat de stronk tijdens het grillen zitten; die houdt de parten heel.",
     "source": "https://barbecuebible.com/recipe/grilled-coleslaw/",
-    "base": 4
+    "base": 4,
+    "prep": "Laat een stukje stronk aan elke part zitten. Daarmee blijven de bladeren bij elkaar op het rooster en kun je de parten rustig keren."
   },
   {
     "id": "focaccia",
@@ -2474,7 +2520,8 @@ const RECIPES = [
     ],
     "tip": "De basis is één brood voor ongeveer zes personen als bijgerecht. Een hitteschild voorkomt een donkere bodem.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/focaccia-deluxe",
-    "base": 6
+    "base": 6,
+    "prep": "Een kleverig deeg is normaal: voeg niet onnodig veel bloem toe. Gebruik een goed geoliede bakvorm en laat het brood na bakken uitdampen."
   },
   {
     "id": "flammkuchen",
@@ -2540,7 +2587,8 @@ const RECIPES = [
     ],
     "tip": "De basis maakt zes kleine flammkuchen. Bij een grotere groep bak je ze na elkaar.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/klassieke-flammkuchen",
-    "base": 6
+    "base": 6,
+    "prep": "Snijd de ui zeer dun en gebruik maar een dunne laag crème fraîche. Bereid alle bodems vooraf; het bakken gaat dan vlot."
   },
   {
     "id": "mac-cheese",
@@ -2606,7 +2654,8 @@ const RECIPES = [
     ],
     "tip": "Deze vegetarische variant laat de ham uit de inspiratiebron weg. Eén klein stukje rookhout is ruim voldoende.",
     "source": "https://barbecuebible.com/recipe/grilled-smoked-mac-and-cheese/",
-    "base": 6
+    "base": 6,
+    "prep": "Kook de pasta iets steviger dan je normaal zou doen: hij gaart in de saus verder. Gebruik een ruime skillet tegen overkoken."
   },
   {
     "id": "baked-beans",
@@ -2672,7 +2721,8 @@ const RECIPES = [
     ],
     "tip": "De bonen zijn vegetarisch gehouden; controleer of de gekozen BBQ-saus dat ook is.",
     "source": "https://barbecuebible.com/recipe/smokehouse-beans/",
-    "base": 6
+    "base": 6,
+    "prep": "Laat de bonen uitlekken, maar houd wat water achter voor als de saus te dik wordt. Een zware pan voorkomt aanbranden."
   },
   {
     "id": "asperges",
@@ -2723,7 +2773,8 @@ const RECIPES = [
     ],
     "tip": "Kies wat dikkere asperges; dunne stengels vallen sneller tussen de roosterstaven.",
     "source": "https://barbecuebible.com/recipe/wood-grilled-asparagus/",
-    "base": 4
+    "base": 4,
+    "prep": "Verwijder de houtige uiteinden door te buigen of af te snijden. Dikke en dunne asperges hebben verschillende gaartijden."
   },
   {
     "id": "banaan-karamel",
@@ -2774,7 +2825,8 @@ const RECIPES = [
     ],
     "tip": "Gebruik geen zeer zachte bananen: ze breken bij het keren. Laat alcohol volledig uitkoken als je een mildere saus wilt.",
     "source": "https://barbecuebible.com/recipe/bananas-foster/",
-    "base": 4
+    "base": 4,
+    "prep": "Gebruik stevige bananen die nog niet te rijp zijn. Zet het ijs klaar en voeg rum alleen toe met de pan van het vuur."
   },
   {
     "id": "chocolade-moelleux",
@@ -2830,7 +2882,8 @@ const RECIPES = [
     ],
     "tip": "De basis levert ongeveer acht bescheiden dessertpunten; snijd pas na afkoelen.",
     "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/chocolademoelleux",
-    "base": 8
+    "base": 8,
+    "prep": "Vet de vormpjes zorgvuldig in en zet ze op een bakplaat. Controleer vroeg: de rand moet stevig zijn, het midden nog zacht."
   },
   {
     "id": "rookpeer",
@@ -2886,6 +2939,1312 @@ const RECIPES = [
     ],
     "tip": "De originele bron flambeert met sterke drank; deze variant houdt het eenvoudig op de kamado.",
     "source": "https://barbecuebible.com/recipe/smoke-roasted-pears/",
+    "base": 4,
+    "prep": "Gebruik peren die nog stevig zijn. Schep het klokhuis voorzichtig uit zodat er ruimte ontstaat voor de notenvulling."
+  },
+  {
+    "id": "entrecote-chimichurri",
+    "title": "Gerookte entrecote met chimichurri",
+    "category": "Rund",
+    "description": "Een dik stuk entrecote krijgt eerst milde rook en daarna een hete korst. De frisse, kruidige chimichurri houdt het gerecht levendig.",
+    "time": "± 1½–2 uur",
+    "temp": "110 → 220 °C",
+    "core": "63 °C + 3 min rust",
+    "mode": "Indirect → direct",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "entrecote aan één stuk"
+      },
+      {
+        "qty": 25,
+        "unit": "g",
+        "name": "platte peterselie"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "oregano"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "rode chilipeper"
+      },
+      {
+        "qty": 50,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 25,
+        "unit": "ml",
+        "name": "rode wijnazijn"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Hak peterselie, oregano, knoflook en chili voor de saus. Zet een lekbak onder het indirecte rooster en houd het vlees heel tijdens de rookfase.",
+    "steps": [
+      "Meng kruiden, knoflook, chili, olie en azijn. Proef met zout en laat de chimichurri staan terwijl het vlees gaart.",
+      "Kruid de entrecote. Leg bij 110 °C indirect boven de lekbak en voeg een klein stukje fruit- of pecanhout toe.",
+      "Rook rustig tot ongeveer 52–55 °C in het dikste deel. Haal het vlees uit de kamado en verwijder hitteschild en lekbak met handschoenen.",
+      "Verhit het rooster tot circa 220 °C. Gril het vlees kort rondom voor kleur; verschuif het bij vlammen en meet tot 63 °C.",
+      "Laat minstens 3 minuten rusten. Snijd haaks op de vezels en lepel de chimichurri pas aan tafel over het vlees."
+    ],
+    "tip": "Gebruik rookhout spaarzaam; de entrecote moet naar vlees smaken, niet naar as.",
+    "source": "https://www.biggreenegg.eu/be_nl/inspiratie/recepten/gerookte-gegrilde-entrecote-chimichurri",
     "base": 4
+  },
+  {
+    "id": "t-bone",
+    "title": "T-bone om te delen",
+    "category": "Rund",
+    "description": "Een grote steak met twee verschillende spieren vraagt een hete grill en een nauwkeurige thermometer. Snijd hem na het rusten in plakken voor de tafel.",
+    "time": "± 45 minuten",
+    "temp": "220–250 °C",
+    "core": "63 °C + 3 min rust",
+    "mode": "Direct + uitwijkzone",
+    "ingredients": [
+      {
+        "qty": 1200,
+        "unit": "g",
+        "name": "T-bone steak, circa 3 cm dik"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 2,
+        "unit": "takjes",
+        "name": "rozemarijn"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "grof zout en peper"
+      }
+    ],
+    "prep": "Leg een zone met minder directe hitte klaar. De ossenhaaskant van de T-bone gaart sneller dan de entrecotekant; meet beide kanten.",
+    "steps": [
+      "Dep de steak droog en wrijf licht in met olie en zout. Kneus knoflook en rozemarijn en leg ze klaar voor het rusten.",
+      "Verwarm een gietijzeren rooster tot 220–250 °C. Gril de steak met gesloten deksel 2–3 minuten per kant voor een stevige korst.",
+      "Draai eventueel een kwartslag voor een ruitpatroon. Verplaats naar de koelere zone als de buitenkant sneller kleurt dan de kern opwarmt.",
+      "Meet in de entrecote én ossenhaas, zonder botcontact. Gaar zo nodig indirect verder tot beide delen minimaal 63 °C zijn.",
+      "Laat minstens 3 minuten rusten met knoflook en rozemarijn. Snijd beide spieren los van het bot en vervolgens dwars op de vezel."
+    ],
+    "tip": "Een dikke T-bone is makkelijker te controleren met eerst indirect garen en daarna kort grillen.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/t-bone-steak",
+    "base": 4
+  },
+  {
+    "id": "moink-balls",
+    "title": "MOINK balls met kersenlak",
+    "category": "Rund",
+    "description": "Balletjes rundergehakt in spek zijn een klassieker voor de borrel. Ze krijgen een zachte rooktoets en pas op het eind een kleverige lak.",
+    "time": "± 1¼ uur",
+    "temp": "150–160 °C",
+    "core": "71 °C",
+    "mode": "Indirect / rook",
+    "ingredients": [
+      {
+        "qty": 500,
+        "unit": "g",
+        "name": "rundergehakt"
+      },
+      {
+        "qty": 120,
+        "unit": "g",
+        "name": "ontbijtspek"
+      },
+      {
+        "qty": 25,
+        "unit": "g",
+        "name": "Parmezaanse kaas"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "peterselie"
+      },
+      {
+        "qty": 1,
+        "unit": "teen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 120,
+        "unit": "ml",
+        "name": "kersen-BBQ-saus"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Maak ongeveer 16 balletjes van gelijke maat en wikkel elk in een half plakje spek. Gebruik zo nodig een prikkertje; verwijder dat voor het serveren.",
+    "steps": [
+      "Meng gehakt met kaas, fijngehakte peterselie, knoflook, zout en peper. Kneed alleen tot alles samenhangt.",
+      "Vorm kleine balletjes, omwikkel met spek en koel ze 15 minuten zodat ze stevig worden.",
+      "Stabiliseer de kamado indirect op 150–160 °C met lekbak. Voeg een klein stukje kersenhout toe en leg de balletjes met ruimte ertussen op het rooster.",
+      "Gaar 30–40 minuten en keer eenmaal. Bestrijk pas daarna dun met kersen-BBQ-saus.",
+      "Laat de lak nog 8–10 minuten hechten en meet de gehaktkern tot minimaal 71 °C. Serveer warm."
+    ],
+    "tip": "Met gehakt meet je een hogere veilige kerntemperatuur dan bij een hele steak.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/moink-balls",
+    "base": 4
+  },
+  {
+    "id": "carnitas",
+    "title": "Carnitas taco’s met sinaasappel",
+    "category": "Varken",
+    "description": "Buikspek wordt zacht in een pan op de kamado en krijgt daarna krokante randjes. Sinaasappel, limoen en frisse toppings houden de taco’s in balans.",
+    "time": "± 4 uur",
+    "temp": "120 → 160 → 220 °C",
+    "core": "90–95 °C & prikmals",
+    "mode": "Indirect → skillet",
+    "ingredients": [
+      {
+        "qty": 1200,
+        "unit": "g",
+        "name": "mager buikspek zonder zwoerd"
+      },
+      {
+        "qty": 12,
+        "unit": "stuks",
+        "name": "kleine maistortilla’s"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "sinaasappels"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "rode ui"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "limoenen"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "gemalen komijn"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "gerookt paprikapoeder"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "avocado"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "koriander"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Snijd het spek in flinke blokken. Zet een gietijzeren pan klaar en houd de verse toppings koel tot het serveren.",
+    "steps": [
+      "Kruid het spek met zout, komijn en paprika. Rook indirect op 120 °C boven een lekbak ongeveer 1 uur.",
+      "Leg het spek in de pan met sap van één sinaasappel, uitgeknepen schillen, knoflook en een scheut water.",
+      "Dek de pan af en gaar bij ongeveer 160 °C nog 1½–2 uur tot het vlees met een vork uiteenvalt; streef naar 90–95 °C en prikmalsheid.",
+      "Trek het vlees grof uit elkaar. Verwijder de schillen en bak het in eigen vet op een hete skillet tot de randjes krokant zijn.",
+      "Snijd ui, avocado en koriander. Warm de tortilla’s kort op en vul met vlees, de toppings en partjes limoen."
+    ],
+    "tip": "Beoordeel het spek op zachtheid; de hoge kerntemperatuur dient hier vooral voor het smelten van bindweefsel.",
+    "source": "https://www.biggreenegg.eu/be_nl/inspiratie/recepten/tacos-carnitas",
+    "base": 4
+  },
+  {
+    "id": "aziatisch-buikspek",
+    "title": "Krokant Aziatisch buikspek",
+    "category": "Varken",
+    "description": "Een droge zwoerdkant geeft de knapperige bovenlaag; onderaan trekken gember, limoen en vissaus in het vlees. Een dag voorbereiding loont.",
+    "time": "2 uur + 1 nacht drogen",
+    "temp": "180 → 220 °C",
+    "core": "70–75 °C",
+    "mode": "Indirect",
+    "ingredients": [
+      {
+        "qty": 1500,
+        "unit": "g",
+        "name": "buikspek met zwoerd"
+      },
+      {
+        "qty": 40,
+        "unit": "ml",
+        "name": "vissaus"
+      },
+      {
+        "qty": 25,
+        "unit": "ml",
+        "name": "sesamolie"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "verse gember"
+      },
+      {
+        "qty": 4,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "limoenen"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "rode chilipeper"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "grof zout"
+      }
+    ],
+    "prep": "Vraag om spek met zwoerd. Marineer alleen de vleeszijde en laat het zwoerd een nacht onafgedekt drogen in de koelkast.",
+    "steps": [
+      "Hak gember, knoflook en chili. Meng met vissaus, sesamolie en limoenrasp; wrijf hiermee alleen de vleeszijde in.",
+      "Prik het zwoerd dicht in zonder door het vet in het vlees te steken. Dep droog en zout licht; zet een nacht onafgedekt koel.",
+      "Stabiliseer de kamado indirect op 180 °C met lekbak. Leg het spek met het zwoerd omhoog en gaar tot de kern rond 60 °C is.",
+      "Verhoog de kamado naar circa 220 °C en gaar verder tot 70–75 °C; het zwoerd moet blazen en krokant zijn. Controleer regelmatig tegen verbranden.",
+      "Laat 10 minuten rusten. Snijd met een scherp mes in dunne plakken en geef er limoensap bij."
+    ],
+    "tip": "Wordt het zwoerd te donker, verlaag de hitte en gaar het vlees rustig af.",
+    "source": "https://www.biggreenegg.eu/be_nl/inspiratie/recepten/krokant-buikspek-op-zn-aziatisch",
+    "base": 4
+  },
+  {
+    "id": "kerstham",
+    "title": "Gerookte ham met honingmosterd",
+    "category": "Varken",
+    "description": "Een feestelijk stuk ham voor een grotere tafel: langzaam roken, rustig op temperatuur brengen en in de laatste fase glanzend lakken.",
+    "time": "± 3 uur",
+    "temp": "130–150 °C",
+    "core": "63 °C + 3 min rust",
+    "mode": "Indirect / rook",
+    "ingredients": [
+      {
+        "qty": 1800,
+        "unit": "g",
+        "name": "rauwe, ongepekelde varkensham zonder bot"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "honing"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "grove mosterd"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "appelazijn"
+      },
+      {
+        "qty": 2,
+        "unit": "takjes",
+        "name": "tijm"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Dit recept gebruikt rauwe ham, geen kant-en-klare gekookte ham. Kies één stuk van gelijkmatige dikte en zet een lekbak klaar.",
+    "steps": [
+      "Dep de ham droog en kruid met zout en peper. Meng honing, mosterd, azijn, knoflook en tijm tot een dunne lak.",
+      "Stabiliseer indirect op 130–150 °C en voeg een klein stukje appelhout toe. Leg de ham boven een lekbak.",
+      "Gaar rustig tot ongeveer 55 °C in het dikste deel. Draai alleen als één kant veel sneller kleurt.",
+      "Bestrijk in twee dunne lagen met honingmosterd en gaar door tot minimaal 63 °C; voorkom dat de suiker zwart wordt.",
+      "Laat minstens 3 minuten rusten, liever 15 minuten voor mooiere plakken. Serveer dun gesneden met de overgebleven, schoon gehouden saus."
+    ],
+    "tip": "Een reeds gegaarde ham vraagt een ander opwarmrecept; controleer het etiket van je slager.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/kerstham-met-honing-mosterdsaus",
+    "base": 6
+  },
+  {
+    "id": "jerk-kip",
+    "title": "Jerk kippendijen met limoenyoghurt",
+    "category": "Kip & gevogelte",
+    "description": "Warm kruidige kippendijen met een beetje rook en een frisse saus. De marinade maak je ruim van tevoren; op de dag zelf is het vooral rustig grillen.",
+    "time": "± 1 uur + 8 uur marineren",
+    "temp": "180–200 °C",
+    "core": "75 °C",
+    "mode": "Indirect → direct",
+    "ingredients": [
+      {
+        "qty": 1000,
+        "unit": "g",
+        "name": "kippendijen met bot en vel"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "rode ui"
+      },
+      {
+        "qty": 3,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "limoensap"
+      },
+      {
+        "qty": 25,
+        "unit": "ml",
+        "name": "sojasaus"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "bruine suiker"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "gemalen piment"
+      },
+      {
+        "qty": 5,
+        "unit": "g",
+        "name": "gedroogde tijm"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "chilipeper"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "Griekse yoghurt"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout"
+      }
+    ],
+    "prep": "Pureer ui, knoflook, chili, limoen, soja, suiker, piment en tijm. Marineer de kip afgedekt in de koelkast; houd geen rauwe marinade over als saus.",
+    "steps": [
+      "Haal de kip 20 minuten voor het grillen uit de koelkast en dep overtollige marinade af om verbranden te beperken.",
+      "Stabiliseer de kamado indirect op 180 °C met lekbak. Leg de dijen met het vel omhoog en gaar met gesloten deksel.",
+      "Maak ondertussen de limoenyoghurt met yoghurt, een beetje limoensap en zout. Bewaar gekoeld.",
+      "Meet na ongeveer 30 minuten. Als de dijen bijna 75 °C zijn, gril ze kort direct met het vel naar beneden voor kleur; draai regelmatig.",
+      "Controleer ieder dik stuk vlak naast het bot tot minimaal 75 °C en serveer direct met de koude saus."
+    ],
+    "tip": "Piment en tijm geven het kenmerkende jerkprofiel; pas de hoeveelheid chili aan je gasten aan.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/jerk-chicken-met-yoghurtsaus-en-rijst",
+    "base": 4
+  },
+  {
+    "id": "butter-chicken",
+    "title": "Butter chicken uit de skillet",
+    "category": "Kip & gevogelte",
+    "description": "Rokerige hitte van de kamado geeft deze romige tomatensaus extra diepte. Kippenblokjes garen snel, dus alle ingrediënten liggen vooraf klaar.",
+    "time": "± 50 minuten",
+    "temp": "200–220 °C",
+    "core": "75 °C",
+    "mode": "Direct / skillet",
+    "ingredients": [
+      {
+        "qty": 700,
+        "unit": "g",
+        "name": "kipdijfilet"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "ui"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 30,
+        "unit": "g",
+        "name": "boter"
+      },
+      {
+        "qty": 30,
+        "unit": "g",
+        "name": "tomatenpuree"
+      },
+      {
+        "qty": 250,
+        "unit": "ml",
+        "name": "passata"
+      },
+      {
+        "qty": 150,
+        "unit": "ml",
+        "name": "slagroom"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "garam masala"
+      },
+      {
+        "qty": 5,
+        "unit": "g",
+        "name": "gemalen komijn"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "limoen"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "koriander"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout"
+      }
+    ],
+    "prep": "Snijd kip, ui en knoflook voordat de skillet heet is. Gebruik een zware pan en hittebestendige handschoenen; roer met een lange lepel.",
+    "steps": [
+      "Verwarm de skillet op direct vuur tot 200–220 °C. Bak de kip in porties in een beetje boter tot de buitenkant kleurt.",
+      "Schuif de kip opzij en fruit ui en knoflook. Roer tomatenpuree, garam masala en komijn erdoor en bak 1 minuut mee.",
+      "Voeg passata en room toe. Roer los, sluit het deksel en laat 10–15 minuten zacht borrelen; stuur de lucht terug als de saus te hard kookt.",
+      "Controleer het dikste stukje kip op minimaal 75 °C. Breng op smaak met zout en een beetje limoensap.",
+      "Laat de pan 5 minuten van het vuur staan en strooi koriander erover. Serveer met naan of rijst."
+    ],
+    "tip": "Slagroom mag rustig pruttelen maar niet langdurig hard koken, anders wordt de saus vet.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/butter-chicken-komkommersalade",
+    "base": 4
+  },
+  {
+    "id": "lamskoteletten",
+    "title": "Lamskoteletten met munt en citroen",
+    "category": "Lam",
+    "description": "Snel gegrild lam met een frisse kruidensaus. De koteletjes krijgen een donkere rand, terwijl de citroen en munt pas na het vuur worden toegevoegd.",
+    "time": "± 40 minuten",
+    "temp": "210–230 °C",
+    "core": "63 °C + 3 min rust",
+    "mode": "Direct + uitwijkzone",
+    "ingredients": [
+      {
+        "qty": 1000,
+        "unit": "g",
+        "name": "lamskoteletten"
+      },
+      {
+        "qty": 25,
+        "unit": "g",
+        "name": "verse munt"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 50,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "honing"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Dep de koteletjes droog en maak de saus vooraf. Leg een minder hete plek vrij zodat dunne koteletjes niet verbranden.",
+    "steps": [
+      "Meng fijngehakte munt met citroenrasp, een beetje citroensap, knoflook, olie en honing. Zet apart.",
+      "Wrijf de koteletjes licht in met olie en zout. Verhit een gietijzeren rooster tot 210–230 °C.",
+      "Gril 2–3 minuten per kant met gesloten deksel. Draai pas wanneer het vlees makkelijk loskomt.",
+      "Verplaats indien nodig naar de uitwijkzone en meet het dikste deel, zonder bot, tot minimaal 63 °C.",
+      "Laat minstens 3 minuten rusten. Serveer met de munt-citroensaus en extra citroen."
+    ],
+    "tip": "Koteletjes verschillen sterk in dikte; de thermometer is betrouwbaarder dan een vaste minuutentijd.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/lamskoteletten-ratatouille-geroosterde-aardappels",
+    "base": 4
+  },
+  {
+    "id": "lamsschenkel",
+    "title": "Gestoofde lamsschenkel met rozemarijn",
+    "category": "Lam",
+    "description": "Eerst grillen voor kleur, daarna uren zacht stoven in een Dutch oven. Het vlees is klaar wanneer het bijna vanzelf van het bot glijdt.",
+    "time": "± 3½ uur",
+    "temp": "220 → 140 °C",
+    "core": "90–95 °C & botmals",
+    "mode": "Direct → indirect / Dutch oven",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "lamsschenkels"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "rode paprika"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "ui"
+      },
+      {
+        "qty": 3,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 300,
+        "unit": "ml",
+        "name": "rode wijn"
+      },
+      {
+        "qty": 700,
+        "unit": "ml",
+        "name": "lams- of runderbouillon"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "tomatenpuree"
+      },
+      {
+        "qty": 2,
+        "unit": "takjes",
+        "name": "rozemarijn"
+      },
+      {
+        "qty": 2,
+        "unit": "takjes",
+        "name": "tijm"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Zet de Dutch oven, bouillon en gesneden groenten klaar. Houd voldoende ruimte in de pan zodat het vocht rustig kan circuleren.",
+    "steps": [
+      "Kruid de schenkels. Gril ze direct op circa 220 °C rondom bruin; dit kost ongeveer 8–10 minuten.",
+      "Leg ze in de Dutch oven. Fruit ui, paprika en knoflook kort aan en roer de tomatenpuree erdoor.",
+      "Schenk wijn en bouillon erbij, voeg kruiden toe en breng net tegen de kook. Het vlees hoeft niet helemaal onder te staan.",
+      "Plaats het hitteschild, zet de kamado rond 140 °C en stoof met deksel op de pan 2–3 uur. Keer de schenkels halverwege.",
+      "Controleer of een vork zonder weerstand in het vlees gaat; de kern zit meestal rond 90–95 °C. Laat 15 minuten rusten in het vocht en serveer met de ingekookte saus."
+    ],
+    "tip": "Voeg warme bouillon toe als de pan droog dreigt te koken; gebruik geen koude vloeistof in een gloeiend hete lege pan.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gestoofde-lamsschenkel-roseval-aardappeltjes",
+    "base": 4
+  },
+  {
+    "id": "zalmforel",
+    "title": "Warmgerookte zalmforel op toast",
+    "category": "Vis & zeevruchten",
+    "description": "Een hele forel rookt kort en wordt daarna geplukt tot een frisse spread. Lekker als voorgerecht of op een borrelplank.",
+    "time": "± 45 minuten",
+    "temp": "120–140 °C",
+    "core": "63 °C",
+    "mode": "Indirect / rook",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "schoongemaakte zalmforel"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "crème fraîche"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "kervel of dille"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 8,
+        "unit": "stuks",
+        "name": "sneetjes toast"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Vraag de visboer om een schoongemaakte forel. Zet een lekbak neer en leg een schone schaal klaar om graten zorgvuldig te verwijderen.",
+    "steps": [
+      "Dep de forel binnen en buiten droog. Kruid de buikholte met zout, peper en een paar schijfjes citroen.",
+      "Stabiliseer indirect op 120–140 °C. Voeg een kleine hand milde rookchips of een klein blokje appelhout toe.",
+      "Leg de forel boven de lekbak en rook circa 20–30 minuten. Meet het dikste deel tot 63 °C.",
+      "Laat kort afkoelen. Verwijder vel en graten zorgvuldig en pluk het visvlees in kleine stukken.",
+      "Meng met crème fraîche, fijngehakte kervel en citroenrasp. Proef met peper en serveer op warme toast."
+    ],
+    "tip": "Voel de geplukte vis nog eenmaal na op fijne graten voordat je de spread mengt.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gerookte-zalmforel-op-toast",
+    "base": 4
+  },
+  {
+    "id": "coquilles",
+    "title": "Coquilles met citroen en kruidenolie",
+    "category": "Vis & zeevruchten",
+    "description": "Een kort en precies grillgerecht: de coquilles krijgen een goudbruine buitenkant en blijven sappig. De frisse kruidenolie gaat er pas op het bord over.",
+    "time": "± 30 minuten",
+    "temp": "200–220 °C",
+    "core": "63 °C",
+    "mode": "Direct / plancha",
+    "ingredients": [
+      {
+        "qty": 12,
+        "unit": "stuks",
+        "name": "schoongemaakte coquilles"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "platte peterselie"
+      },
+      {
+        "qty": 40,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Dep de coquilles heel goed droog met keukenpapier; vocht verhindert bruining. Gebruik een vlakke gietijzeren plaat om kleine stukken niet door het rooster te laten vallen.",
+    "steps": [
+      "Meng olie met fijngehakte peterselie, knoflook en citroenrasp. Bewaar de olie schoon voor aan tafel.",
+      "Verwarm de plancha op direct vuur tot 200–220 °C. Vet licht in en leg de coquilles met ruimte ertussen neer.",
+      "Bak ongeveer 1½–2 minuten op de eerste kant zonder te schuiven, totdat ze vanzelf loslaten en goudbruin zijn.",
+      "Keer één keer en bak kort verder. Meet bij grote coquilles tot 63 °C; haal ze direct van de plaat om doorgaren te beperken.",
+      "Serveer onmiddellijk met de kruidenolie, een kneep citroen en versgemalen peper."
+    ],
+    "tip": "Kleine coquilles zijn eerder klaar; gebruik dan vooral kleur en stevigheid als aanwijzing.",
+    "source": "https://www.biggreenegg.eu/be_nl/inspiratie/recepten/gegrilde-gambas-coquilles-wakame",
+    "base": 4
+  },
+  {
+    "id": "halloumi-groenten",
+    "title": "Halloumi met gegrilde groenten",
+    "category": "Vegetarisch",
+    "description": "Zoute, warme halloumi met zoete paprika en courgette. Een eenvoudige schaal die als hoofdgerecht werkt met brood en citroenyoghurt.",
+    "time": "± 45 minuten",
+    "temp": "200–220 °C",
+    "core": "N.v.t.",
+    "mode": "Direct",
+    "ingredients": [
+      {
+        "qty": 400,
+        "unit": "g",
+        "name": "halloumi"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "rode paprika’s"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "courgettes"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "rode ui"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "Griekse yoghurt"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "citroen"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "verse munt"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "peper"
+      }
+    ],
+    "prep": "Snijd groenten in gelijke, stevige stukken. Leg de halloumi pas kort voor het grillen op keukenpapier zodat het oppervlak droog is.",
+    "steps": [
+      "Meng yoghurt met citroenrasp en fijngehakte munt. Zet de saus koel weg.",
+      "Verhit het rooster tot 200–220 °C. Bestrijk paprika, courgette en ui dun met olie en gril eerst de groenten.",
+      "Keer na enkele minuten; de randen mogen donker kleuren maar de binnenkant moet nog structuur hebben. Houd warm aan de zijkant.",
+      "Snijd halloumi in dikke plakken en gril circa 2 minuten per kant tot goudbruine strepen verschijnen.",
+      "Leg groenten en kaas op een schaal, knijp citroen erover uit en serveer direct met de yoghurtsaus."
+    ],
+    "tip": "Halloumi wordt rubberachtig als hij lang blijft liggen. Gril de kaas als laatste.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/pizza-calzone-met-gerookte-halloumi",
+    "base": 4
+  },
+  {
+    "id": "gevulde-paprika",
+    "title": "Paprika met bonen, mais en feta",
+    "category": "Vegetarisch",
+    "description": "Gevulde paprika’s uit de skillet met een kruidige bonenvulling. Ze zijn royaal genoeg als hoofdgerecht en goed voor te bereiden.",
+    "time": "± 1 uur",
+    "temp": "180–200 °C",
+    "core": "Vulling heet; paprika zacht",
+    "mode": "Indirect / skillet",
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "grote paprika’s"
+      },
+      {
+        "qty": 240,
+        "unit": "g",
+        "name": "uitgelekte kidneybonen"
+      },
+      {
+        "qty": 160,
+        "unit": "g",
+        "name": "mais"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "ui"
+      },
+      {
+        "qty": 2,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "tomatenblokjes"
+      },
+      {
+        "qty": 120,
+        "unit": "g",
+        "name": "feta"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "gemalen komijn"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "gerookt paprikapoeder"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Snijd kapjes van de paprika’s en verwijder pitten en zaadlijsten. Zet de paprika’s even rechtop in de skillet om te zien of ze stabiel staan.",
+    "steps": [
+      "Fruit ui en knoflook in olie in een skillet op direct vuur. Roer komijn en gerookt paprikapoeder er kort door.",
+      "Voeg bonen, mais en tomatenblokjes toe. Laat de vulling 8–10 minuten inkoken en proef met peper en een beetje zout.",
+      "Schep de vulling in de paprika’s en verkruimel de feta erover. Zet de kapjes terug.",
+      "Plaats het hitteschild en stabiliseer rond 180–200 °C. Gaar de paprika’s in de skillet 25–35 minuten met gesloten deksel.",
+      "Controleer of de paprika zacht is en de vulling overal goed heet. Laat 5 minuten staan voordat je serveert."
+    ],
+    "tip": "Gebruik geen te natte vulling: laat tomaten eerst inkoken zodat de paprika’s niet vollopen.",
+    "source": "https://www.biggreenegg.eu/be_nl/inspiratie/recepten/gevulde-paprikas",
+    "base": 4
+  },
+  {
+    "id": "calzone",
+    "title": "Calzone met salami en mozzarella",
+    "category": "Pizza & brood",
+    "description": "Een dichtgevouwen pizza met krokante korst en een sappige binnenkant. Een goed voorverwarmde steen en een droge vulling maken het verschil.",
+    "time": "± 1½ uur + rijstijd",
+    "temp": "240–260 °C",
+    "core": "Vulling door en door heet",
+    "mode": "Indirect / pizzasteen",
+    "ingredients": [
+      {
+        "qty": 500,
+        "unit": "g",
+        "name": "pizzabloem"
+      },
+      {
+        "qty": 320,
+        "unit": "ml",
+        "name": "water"
+      },
+      {
+        "qty": 7,
+        "unit": "g",
+        "name": "droge gist"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "zout"
+      },
+      {
+        "qty": 250,
+        "unit": "g",
+        "name": "mozzarella"
+      },
+      {
+        "qty": 160,
+        "unit": "g",
+        "name": "salami"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "champignons"
+      },
+      {
+        "qty": 150,
+        "unit": "ml",
+        "name": "passata"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "oregano"
+      }
+    ],
+    "prep": "Laat de mozzarella goed uitlekken en snijd champignons dun. Houd de vulling bescheiden, anders scheurt de calzone of blijft de bodem bleek.",
+    "steps": [
+      "Kneed bloem, water, gist en zout tot een soepel deeg. Laat afgedekt ongeveer 1 uur rijzen en verdeel in vier bollen.",
+      "Plaats hitteschild en pizzasteen met luchtruimte ertussen. Verwarm de steen minstens 30 minuten voor op 240–260 °C.",
+      "Rol elke bol uit tot een ronde bodem. Beleg één helft met weinig passata, salami, champignons, mozzarella en oregano.",
+      "Vouw dicht en druk de rand zorgvuldig aan. Maak bovenop een klein gaatje voor stoom en bestrijk licht met olie.",
+      "Schuif voorzichtig op de steen en bak 10–15 minuten tot diep goudbruin. Laat 3 minuten rusten; de vulling is gloeiend heet."
+    ],
+    "tip": "Controleer halverwege de onderkant met een pizzaschep en draai de calzone zo nodig voor gelijkmatige kleur.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/pizza-calzone-met-tomaat-salami-champignons-en-mozzarella",
+    "base": 4
+  },
+  {
+    "id": "borrelbrood",
+    "title": "Plukbrood met knoflook en kaas",
+    "category": "Pizza & brood",
+    "description": "Een rond brood vol gesmolten kaas en kruidenboter om samen van te eten. De kamado bakt de bovenkant krokant zonder dat het brood uitdroogt.",
+    "time": "± 40 minuten",
+    "temp": "180–190 °C",
+    "core": "Kaas gesmolten",
+    "mode": "Indirect / skillet",
+    "ingredients": [
+      {
+        "qty": 600,
+        "unit": "g",
+        "name": "rond boerenbrood"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "zachte boter"
+      },
+      {
+        "qty": 3,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 180,
+        "unit": "g",
+        "name": "mozzarella"
+      },
+      {
+        "qty": 60,
+        "unit": "g",
+        "name": "Parmezaanse kaas"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "peterselie"
+      },
+      {
+        "qty": 2,
+        "unit": "takjes",
+        "name": "rozemarijn"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "peper"
+      }
+    ],
+    "prep": "Snijd het brood ruitvormig diep in, maar laat de bodem heel. Zet de skillet alvast klaar en leg een groot vel bakpapier in de pan.",
+    "steps": [
+      "Meng zachte boter met fijngehakte knoflook, peterselie, rozemarijn en peper.",
+      "Vul de inkepingen van het brood eerst met kruidenboter en daarna met mozzarella en Parmezaanse kaas.",
+      "Plaats het brood in de skillet. Stabiliseer de kamado indirect op 180–190 °C.",
+      "Bak met gesloten deksel circa 20–25 minuten tot de kaas borrelt en de bovenkant goudbruin is. Dek losjes af als de korst te donker kleurt.",
+      "Laat 5 minuten staan, zet de skillet op een onderzetter en trek het brood aan tafel uit elkaar."
+    ],
+    "tip": "Gebruik een stevig brood van de bakker; zacht fabrieksbrood wordt snel papperig.",
+    "source": "https://www.biggreenegg.eu/be_nl/inspiratie/recepten/borrelbrood",
+    "base": 4
+  },
+  {
+    "id": "ratatouille",
+    "title": "Ratatouille uit de skillet",
+    "category": "Bijgerechten",
+    "description": "Paprika, courgette, aubergine en tomaat garen langzaam in hun eigen vocht. Een royale groenteschotel naast vlees, vis of vers brood.",
+    "time": "± 1 uur",
+    "temp": "180–200 °C",
+    "core": "Groenten zacht",
+    "mode": "Indirect / skillet",
+    "ingredients": [
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "aubergine"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "courgettes"
+      },
+      {
+        "qty": 2,
+        "unit": "stuks",
+        "name": "rode paprika’s"
+      },
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "tomaten"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "ui"
+      },
+      {
+        "qty": 3,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 50,
+        "unit": "ml",
+        "name": "olijfolie"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "verse basilicum"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Snijd alle groenten in vergelijkbare plakken of blokjes. Gebruik een ruime skillet zodat het vocht kan verdampen.",
+    "steps": [
+      "Meng olijfolie met fijngehakte knoflook en een deel van de basilicum.",
+      "Leg de groenten afwisselend in een geoliede skillet; kruid elke laag licht met zout en peper.",
+      "Plaats de skillet indirect op 180–200 °C en gaar 35–45 minuten met gesloten deksel.",
+      "Controleer halverwege of de bodem niet droogstaat. Voeg alleen een klein scheutje water toe als dat nodig is.",
+      "Laat 5 minuten staan zodat het vocht bindt. Werk af met de rest van de basilicum en een drup olijfolie."
+    ],
+    "tip": "Gebruik rijpe tomaten voor de saus en stevige courgettes zodat de schotel structuur houdt.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/ratatouille",
+    "base": 4
+  },
+  {
+    "id": "honingwortels",
+    "title": "Wortels met honing en citrus",
+    "category": "Bijgerechten",
+    "description": "Zoete wortels uit een hete skillet krijgen een lichte karamellaag. Citrus en tijm maken dit een helder bijgerecht bij langzaam gegaard vlees.",
+    "time": "± 50 minuten",
+    "temp": "180–200 °C",
+    "core": "Wortels beetgaar",
+    "mode": "Indirect / skillet",
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "bospeen of kleine wortels"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "honing"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "sinaasappel"
+      },
+      {
+        "qty": 30,
+        "unit": "g",
+        "name": "boter"
+      },
+      {
+        "qty": 3,
+        "unit": "takjes",
+        "name": "tijm"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "appelazijn"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en peper"
+      }
+    ],
+    "prep": "Schrob de wortels en halveer dikke exemplaren in de lengte. Zo garen alle stukken ongeveer tegelijk.",
+    "steps": [
+      "Smelt boter in de skillet en leg de wortels in één laag. Kruid licht met zout en peper.",
+      "Plaats de skillet indirect op 180–200 °C en rooster 20 minuten met gesloten deksel.",
+      "Meng honing, sinaasappelsap, azijn en tijm. Schep dit door de wortels en gaar nog 10–15 minuten.",
+      "Schud de pan af en toe zodat de honing overal hecht. Stop zodra de wortels beetgaar en glanzend zijn.",
+      "Rasp er vlak voor het serveren wat sinaasappelschil over en schep het panvocht mee op."
+    ],
+    "tip": "Voeg honing pas later toe; vroeg in de bereiding zou de suiker te donker worden.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/gesmoorde-wortelen",
+    "base": 4
+  },
+  {
+    "id": "brownie",
+    "title": "Skillet brownie met espresso",
+    "category": "Desserts",
+    "description": "Een smeuïge chocoladebrownie uit de kamado, met een klein beetje koffie voor diepte. Bak hem indirect en laat volledig afkoelen voor strakke punten.",
+    "time": "± 1¼ uur + afkoelen",
+    "temp": "170–180 °C",
+    "core": "Stevige rand, zacht midden",
+    "mode": "Indirect / skillet",
+    "ingredients": [
+      {
+        "qty": 200,
+        "unit": "g",
+        "name": "pure chocolade"
+      },
+      {
+        "qty": 150,
+        "unit": "g",
+        "name": "boter"
+      },
+      {
+        "qty": 160,
+        "unit": "g",
+        "name": "suiker"
+      },
+      {
+        "qty": 3,
+        "unit": "stuks",
+        "name": "eieren"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "bloem"
+      },
+      {
+        "qty": 20,
+        "unit": "ml",
+        "name": "sterke espresso"
+      },
+      {
+        "qty": 1,
+        "unit": "g",
+        "name": "zout"
+      }
+    ],
+    "prep": "Bekleed de bodem van een kleine skillet met bakpapier en vet de rand in. Werk met een schone kamado zonder zware rookchips.",
+    "steps": [
+      "Smelt chocolade en boter langzaam samen en roer de espresso erdoor. Laat iets afkoelen.",
+      "Klop eieren en suiker kort glad; meng het chocolademengsel erdoor en spatel bloem en zout erbij.",
+      "Giet het beslag in de skillet. Stabiliseer de kamado indirect op 170–180 °C.",
+      "Bak 25–35 minuten met gesloten deksel. De rand moet stevig zijn; een prikker in het midden mag vochtige kruimels hebben, maar geen vloeibaar beslag.",
+      "Laat minstens 30 minuten in de pan afkoelen voordat je de brownie in stukken snijdt."
+    ],
+    "tip": "De brownie gaart nog na in de hete skillet. Haal hem van de kamado zodra het midden net gestold is.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/brownies",
+    "base": 8
+  },
+  {
+    "id": "appeltaart",
+    "title": "Kamadotaart met appel en kaneel",
+    "category": "Desserts",
+    "description": "Een eenvoudige appeltaart met kruimelige korst en zachte, frisse vulling. De indirecte hitte laat de bodem rustig bakken zonder rookoverdaad.",
+    "time": "± 1½ uur + afkoelen",
+    "temp": "180–190 °C",
+    "core": "Bodem gaar, appel zacht",
+    "mode": "Indirect / taartvorm",
+    "ingredients": [
+      {
+        "qty": 300,
+        "unit": "g",
+        "name": "bloem"
+      },
+      {
+        "qty": 180,
+        "unit": "g",
+        "name": "koude boter"
+      },
+      {
+        "qty": 100,
+        "unit": "g",
+        "name": "suiker"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "ei"
+      },
+      {
+        "qty": 5,
+        "unit": "stuks",
+        "name": "stevige appels"
+      },
+      {
+        "qty": 50,
+        "unit": "g",
+        "name": "rozijnen"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "kaneel"
+      },
+      {
+        "qty": 20,
+        "unit": "g",
+        "name": "paneermeel"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "snuf zout"
+      }
+    ],
+    "prep": "Gebruik een metalen springvorm van ongeveer 22 cm. Laat de kamado schoon branden en gebruik geen rookhout bij zoet gebak.",
+    "steps": [
+      "Kneed bloem, koude boter, suiker, ei en zout kort tot een deeg. Laat 30 minuten afgedekt in de koelkast rusten.",
+      "Schil de appels en snijd in kleine blokjes. Meng met rozijnen en kaneel.",
+      "Bekleed een ingevette springvorm met twee derde van het deeg. Strooi paneermeel over de bodem tegen overtollig vocht en schep de appel erin.",
+      "Maak van het resterende deeg repen of kruimels. Bak indirect op 180–190 °C gedurende 45–55 minuten tot de rand goudbruin en de bodem gaar is.",
+      "Laat de taart minstens 20 minuten afkoelen voor het verwijderen van de vorm; serveer lauwwarm of op kamertemperatuur."
+    ],
+    "tip": "Controleer na 35 minuten de kleur; bescherm de bovenkant losjes met folie als die te snel bruint.",
+    "source": "https://www.biggreenegg.eu/nl/inspiratie/recepten/appeltaart-met-abrikozenjam",
+    "base": 8
   }
 ];

@@ -398,5 +398,165 @@ const PHOTOS = {
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
     "licenseName": "CC BY-SA 2.0",
     "title": "Mum's Baked Pears in Red Wine"
+  },
+  "entrecote-chimichurri": {
+    "file": "images/entrecote-chimichurri.jpg",
+    "creator": "mariojas1",
+    "page": "https://www.flickr.com/photos/25284959@N04/14234767155",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Grilled Ribeye served with sauteed mushrooms and onions, corn on-the-cob, and steamed rice. Homemade chimichurri on top of steak. #foodstrava"
+  },
+  "t-bone": {
+    "file": "images/t-bone.jpg",
+    "creator": "Lucarelli",
+    "page": "https://commons.wikimedia.org/w/index.php?curid=982985",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseName": "CC BY-SA 3.0",
+    "title": "File:Bistecca alla Fiorentina.jpg"
+  },
+  "moink-balls": {
+    "file": "images/moink-balls.jpg",
+    "creator": "Katrin Gilger",
+    "page": "https://commons.wikimedia.org/wiki/File:Bacon-Frikadellen_%286703585583%29.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseName": "CC BY-SA 2.0",
+    "title": "Bacon-Frikadellen (6703585583).jpg"
+  },
+  "carnitas": {
+    "file": "images/carnitas.jpg",
+    "creator": "thebittenword.com",
+    "page": "https://www.flickr.com/photos/22198928@N00/2404689541",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Mexican Pulled Pork (Carnitas) Tacos with Corn-and-Red-Onion Salsa"
+  },
+  "aziatisch-buikspek": {
+    "file": "images/aziatisch-buikspek.jpg",
+    "creator": "T.Tseng",
+    "page": "https://www.flickr.com/photos/68147320@N02/33546099655",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Roasted Belly Pork with crispy skin, BBQ Roasted Pork"
+  },
+  "kerstham": {
+    "file": "images/kerstham.jpg",
+    "creator": "timsackton",
+    "page": "https://www.flickr.com/photos/43581314@N08/6621135771",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseName": "CC BY-SA 2.0",
+    "title": "Roast Ham"
+  },
+  "jerk-kip": {
+    "file": "images/jerk-kip.jpg",
+    "creator": "Caroline Ford",
+    "page": "https://commons.wikimedia.org/wiki/File:Jerk_chicken_july_05.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "licenseName": "CC BY-SA 3.0",
+    "title": "Jerk chicken july 05.jpg"
+  },
+  "butter-chicken": {
+    "file": "images/butter-chicken.jpg",
+    "creator": "junyaogura",
+    "page": "https://www.flickr.com/photos/73344268@N00/3291448439",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Butter Chicken Curry"
+  },
+  "lamskoteletten": {
+    "file": "images/lamskoteletten.jpg",
+    "creator": "Charles Haynes",
+    "page": "https://www.flickr.com/photos/87232391@N00/9152469676",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseName": "CC BY-SA 2.0",
+    "title": "Grilled Lamb Chop"
+  },
+  "lamsschenkel": {
+    "file": "images/lamsschenkel.jpg",
+    "creator": "Maggie Hoffman",
+    "page": "https://www.flickr.com/photos/8830972@N08/3345758570",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Port-braised lamb shanks"
+  },
+  "zalmforel": {
+    "file": "images/zalmforel.jpg",
+    "creator": "T.Tseng",
+    "page": "https://www.flickr.com/photos/68147320@N02/10865060114",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Smoked trout, pickled onions, capers, avocado toast"
+  },
+  "coquilles": {
+    "file": "images/coquilles.jpg",
+    "creator": "thebittenword.com",
+    "page": "https://www.flickr.com/photos/22198928@N00/2575445490",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Grilled Scallops with Mexican Corn Salad"
+  },
+  "halloumi-groenten": {
+    "file": "images/halloumi-groenten.jpg",
+    "creator": "Ruth and Dave",
+    "page": "https://www.flickr.com/photos/95142644@N00/36485067785",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Grilled halloumi, peppers and tomatoes"
+  },
+  "gevulde-paprika": {
+    "file": "images/gevulde-paprika.jpg",
+    "creator": "Mark Bonica",
+    "page": "https://commons.wikimedia.org/wiki/File:Quinoa_stuffed_peppers.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Quinoa stuffed peppers.jpg"
+  },
+  "calzone": {
+    "file": "images/calzone.jpg",
+    "creator": "wales_gibbons",
+    "page": "https://www.flickr.com/photos/9678460@N07/8686014577",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Calzone Pizza"
+  },
+  "borrelbrood": {
+    "file": "images/borrelbrood.jpg",
+    "creator": "Asecretfanfare",
+    "page": "https://commons.wikimedia.org/wiki/File:Korean_cream_cheese_garlic_bread.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseName": "CC BY-SA 4.0",
+    "title": "Korean cream cheese garlic bread.jpg"
+  },
+  "ratatouille": {
+    "file": "images/ratatouille.jpg",
+    "creator": "trenttsd",
+    "page": "https://www.flickr.com/photos/84335369@N00/4931587205",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Ratatouille in French oven"
+  },
+  "honingwortels": {
+    "file": "images/honingwortels.jpg",
+    "creator": "whatleydude",
+    "page": "https://www.flickr.com/photos/85318305@N00/5723118715",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "And of course, roasted honey carrots with thyme"
+  },
+  "brownie": {
+    "file": "images/brownie.jpg",
+    "creator": "Kelly Hunter",
+    "page": "https://www.flickr.com/photos/47149893@N07/15410404930",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Fudgy Chocolate Brownies with Macadamia Nuts"
+  },
+  "appeltaart": {
+    "file": "images/appeltaart.jpg",
+    "creator": "Happy Krissy",
+    "page": "https://www.flickr.com/photos/53503060@N06/6079924588",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "licenseName": "CC BY 2.0",
+    "title": "Apple Pie"
   }
 };
