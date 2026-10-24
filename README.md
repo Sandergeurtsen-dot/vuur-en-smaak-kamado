@@ -2,12 +2,15 @@
 
 Tien gevarieerde kamadorecepten, persoonlijk geselecteerd: picanha, sticky spareribs, pulled pork, peri-peri kipspiezen, cederzalm, pizza margherita, bloemkool met specerijenyoghurt, gevulde portobello’s, hasselback aardappels en gegrilde ananas.
 
-Eigen vereenvoudigde varianten, met per recept een link naar de inspiratiebron. Geen officiële merkapp of objectieve ranglijst. Er is niets gepubliceerd en er wordt geen ChatGPT Sites-ruimte gebruikt.
+Eigen vereenvoudigde varianten, met per recept een link naar de inspiratiebron. Geen officiële merkapp of objectieve ranglijst. De app is gepubliceerd via GitHub Pages; er wordt geen ChatGPT Sites-ruimte gebruikt.
+
+Live app: https://sandergeurtsen-dot.github.io/vuur-en-smaak-kamado/
+Broncode: https://github.com/Sandergeurtsen-dot/vuur-en-smaak-kamado
 
 ## Meteen bekijken
 Pak de ZIP volledig uit. Open index.html op je computer. Recepten, schalen, vinkjes en favorieten werken zonder installatie. Als automatisch kopiëren niet beschikbaar is, verschijnt een tekstvak om handmatig te kopiëren. Offline-installatie als app werkt via HTTPS of localhost, niet via een los bestand.
 
-## Gratis publiceren op GitHub Pages
+## Opnieuw publiceren via GitHub Pages
 1. Meld je aan op GitHub en maak een nieuwe **Public** repository, bijvoorbeeld `kamado-recepten`. GitHub Free ondersteunt Pages voor publieke repositories. De bestanden en website worden openbaar.
 2. Kies **Add file → Upload files**. Upload de uitgepakte bestanden uit deze map, niet de ZIP en niet de bovenliggende map. Zorg dat `index.html` direct bovenaan in de repository staat. Bewaar ook de icoontjes, scripts, CSS, het manifest en `sw.js`. Commit de bestanden naar `main`.
 3. Ga naar **Settings → Pages**. Kies bij **Source**: **Deploy from a branch**. Kies **main** en **/ (root)** en klik **Save**.
