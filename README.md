@@ -1,6 +1,6 @@
 # Vuur & Smaak — Bastard VX Large
 
-Tien gevarieerde kamadorecepten, persoonlijk geselecteerd: picanha, sticky spareribs, pulled pork, peri-peri kipspiezen, cederzalm, pizza margherita, bloemkool met specerijenyoghurt, gevulde portobello’s, hasselback aardappels en gegrilde ananas.
+25 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. De oorspronkelijke tien zijn aangevuld met vijftien nieuwe gerechten, waaronder brisket, smashburgers, burnt ends, hele kip, lamsrack, dorade, naan en appelcrumble.
 
 Eigen vereenvoudigde varianten, met per recept een link naar de inspiratiebron. Geen officiële merkapp of objectieve ranglijst. De app is gepubliceerd via GitHub Pages; er wordt geen ChatGPT Sites-ruimte gebruikt.
 
@@ -35,12 +35,12 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 - De boodschappenlijst hoort bij één recept en portiegrootte. Vinkjes voor 4 personen blijven apart van die voor 8 personen.
 - Favorieten, de gekozen porties en vinkjes blijven op dit apparaat in dezelfde browser. Er is geen account, tracking of synchronisatie.
 - Offline werkt nadat alle bestanden online zijn opgeslagen. Bronwebsites blijven internet nodig hebben. Een browser kan lokale opslag wissen; dit is geen gegarandeerde permanente back-up.
-- De collectie bevat ook bijgerechten en een dessert. Lees de tip bij het recept voor de portiegrootte.
+- De collectie bevat hoofdgerechten, bijgerechten, brood en desserts. Lees de tip bij het recept voor de portiegrootte: de burnt ends zijn bijvoorbeeld als borrelhap berekend.
 
 ## Bestanden en onderhoud
 `index.html`, `style.css`, `app.js` en `recipes.js` vormen de app. Alle beelden zijn lokaal: een CSS-kamado en eigen appicoontjes. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
 
-`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v2 naar v3), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
+`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v3 naar v4), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
 
 Recepten aanpassen kan in `recipes.js`: `base` is het basisaantal personen; `qty: null` betekent naar smaak. De app is bedoeld voor de meegeleverde vertrouwde receptgegevens, niet voor het importeren van onbekende HTML.
 
