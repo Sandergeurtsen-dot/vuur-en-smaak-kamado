@@ -43,7 +43,7 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 ## Bestanden en onderhoud
 `index.html`, `style.css`, `app.js`, `recipes.js` en `photos.js` vormen de app. De 70 gerechtfoto’s staan lokaal in `images/`; de volledige naamsvermelding en licenties staan in `FOTOBRONNEN.md` en bij de foto’s op de receptschermen. Het zijn sfeerbeelden, geen foto’s van de exacte bereidingswijze. Het omslagbeeld is digitaal gemaakt op basis van de aangeleverde kamado-referentie en is geen officiële productfoto. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
 
-`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. De startpagina haalt online steeds de nieuwste versie op en gebruikt de opgeslagen kopie als het netwerk ontbreekt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v15 naar v16), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
+`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. De startpagina haalt online steeds de nieuwste versie op en gebruikt de opgeslagen kopie als het netwerk ontbreekt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v16 naar v17), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
 
 Recepten aanpassen kan in `recipes.js`: `base` is het basisaantal personen; `qty: null` betekent naar smaak. De app is bedoeld voor de meegeleverde vertrouwde receptgegevens, niet voor het importeren van onbekende HTML.
 

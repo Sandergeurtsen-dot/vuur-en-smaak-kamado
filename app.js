@@ -38,7 +38,7 @@ function drawCards(){
   $('#cards').innerHTML=CATEGORIES.map(category=>{
     const group=rs.filter(r=>r.category===category);
     if(!group.length)return '';
-    const cards=group.map(r=>`<button class="card ${r.id===state.selected?'active':''}" data-id="${r.id}" aria-pressed="${r.id===state.selected}">${cardPhoto(r)}<span class="number">${String(RECIPES.indexOf(r)+1).padStart(2,'0')}</span><span class="heart" aria-label="${state.favorites.includes(r.id)?'Favoriet':''}">${state.favorites.includes(r.id)?'♥':''}</span><strong>${r.title}</strong><small class="card-meta"><span>${r.time.split("+")[0].trim()}</span><span>${r.temp}</span></small></button>`).join('');
+    const cards=group.map(r=>`<button class="card ${r.id===state.selected?'active':''}" data-id="${r.id}" aria-pressed="${r.id===state.selected}">${cardPhoto(r)}<span class="heart" aria-label="${state.favorites.includes(r.id)?'Favoriet':''}">${state.favorites.includes(r.id)?'♥':''}</span><strong>${r.title}</strong><small class="card-meta"><span>${r.time.split("+")[0].trim()}</span><span>${r.temp}</span></small></button>`).join('');
     return `<section class="category-group"><div class="category-head"><h3>${category}</h3><span>${group.length} ${group.length===1?'recept':'recepten'}</span></div><div class="cards">${cards}</div></section>`;
   }).join('');
   $('#count').textContent=rs.length?`${rs.length} ${rs.length===1?'recept':'recepten'} gevonden`:'Geen recepten gevonden. Pas je zoekopdracht of filters aan.';
@@ -61,7 +61,7 @@ function renderRoute(){
   $('#plan-view').hidden=!plan;
   if(detail){
     state.selected=selected.id;save();
-    $('#detailIndex').textContent=selected.category.toUpperCase()+' / '+String(RECIPES.indexOf(selected)+1).padStart(2,'0')+' VAN '+RECIPES.length;
+    $('#detailIndex').textContent=selected.category.toUpperCase();
     document.title=selected.title+' · Vuur & Smaak';
     drawCards();drawRecipe();
     scrollTo(0,0);
