@@ -38,9 +38,9 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 - De collectie bevat hoofdgerechten, bijgerechten, brood en desserts. Lees de tip bij het recept voor de portiegrootte: de burnt ends zijn bijvoorbeeld als borrelhap berekend.
 
 ## Bestanden en onderhoud
-`index.html`, `style.css`, `app.js`, `recipes.js` en `photos.js` vormen de app. De 70 gerechtfoto’s staan lokaal in `images/`; de volledige naamsvermelding en licenties staan in `FOTOBRONNEN.md` en bij de foto’s op de receptschermen. Het zijn sfeerbeelden, geen foto’s van de exacte bereidingswijze. De omslag gebruikt eveneens een echte gerechtfoto. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
+`index.html`, `style.css`, `app.js`, `recipes.js` en `photos.js` vormen de app. De 70 gerechtfoto’s staan lokaal in `images/`; de volledige naamsvermelding en licenties staan in `FOTOBRONNEN.md` en bij de foto’s op de receptschermen. Het zijn sfeerbeelden, geen foto’s van de exacte bereidingswijze. Het omslagbeeld is digitaal gemaakt op basis van de aangeleverde kamado-referentie en is geen officiële productfoto. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
 
-`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v11 naar v12), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
+`manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v13 naar v14), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
 
 Recepten aanpassen kan in `recipes.js`: `base` is het basisaantal personen; `qty: null` betekent naar smaak. De app is bedoeld voor de meegeleverde vertrouwde receptgegevens, niet voor het importeren van onbekende HTML.
 

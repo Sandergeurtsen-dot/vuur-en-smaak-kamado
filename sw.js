@@ -1,5 +1,5 @@
-const CACHE='vuur-smaak-v11';
-const ASSETS=['./','./index.html','./style.css?v=11','./recipes.js?v=11','./photos.js?v=11','./app.js?v=11','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./images/bavette.jpg'];
+const CACHE='vuur-smaak-v13';
+const ASSETS=['./','./index.html','./style.css?v=13','./recipes.js?v=13','./photos.js?v=13','./app.js?v=13','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./images/kamado-cover.jpg'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('vuur-smaak-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{

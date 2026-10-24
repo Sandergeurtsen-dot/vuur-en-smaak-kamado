@@ -46,3 +46,15 @@
 
 /* Recipe mise en place */
 .prep-note{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:17px 0 15px;margin-bottom:25px}.prep-note strong{display:block;font:700 10px/1.5 system-ui,sans-serif;text-transform:uppercase;letter-spacing:1.7px;color:var(--rust)}.prep-note p{font-size:14px;line-height:1.6;margin:7px 0 0;color:#554e42}
+
+/* Homepage cover */
+.hero{display:block;padding:0;gap:0;background:#24231e}
+.hero-photo{height:clamp(275px,33vw,410px);min-height:0;margin:0}
+.hero-photo img{object-position:center 18%}
+.hero-copy{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:end;gap:48px;padding:40px 6% 34px}
+.hero-copy h1{margin:0}
+.hero-intro{max-width:390px;justify-self:end}
+.hero-intro p{margin:0}
+.hero .primary{margin-top:20px}
+.hero-foot{margin:0 6%;padding:17px 0 24px}
+@media(max-width:650px){.hero-photo{height:260px;min-height:0;margin:0}.hero-photo img{object-position:63% center}.hero-copy{display:block;padding:29px 24px 26px}.hero-copy h1{font-size:clamp(42px,12vw,54px);margin:0 0 18px}.hero-intro{max-width:none}.hero-intro p{max-width:330px}.hero-foot{margin:0 24px;padding:15px 0 22px}.hero .primary{margin-top:16px}}

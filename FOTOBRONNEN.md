@@ -2,6 +2,8 @@
 
 De afbeeldingen zijn sfeerbeelden bij de recepten; ze tonen niet noodzakelijk de exacte bereidingswijze. De foto’s zijn afkomstig van herbruikbare bronnen, met de licentie zoals vermeld op de bronpagina. Bij wijzigingen in deze collectie blijft naamsvermelding verplicht waar de licentie dat voorschrijft.
 
+Het omslagbeeld van de kamado is een digitaal gemaakt sfeerbeeld op basis van de door de gebruiker aangeleverde referentie. Het is geen officiële productfoto van The Bastard.
+
 01. **picanha** — [food_barbecue_grilled_picanha_steak_001 van Juhele_CZ](https://www.flickr.com/photos/96541566@N06/51793275950) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
 02. **ribs** — [Barbecued - Pork ribs van Enrico BBQness](https://commons.wikimedia.org/w/index.php?curid=41793701) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
 03. **pork** — [Pulled pork while pulling van Thogru](https://commons.wikimedia.org/w/index.php?curid=24999279) · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
