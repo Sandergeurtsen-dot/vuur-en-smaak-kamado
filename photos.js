@@ -1,11 +1,11 @@
 const PHOTOS = {
   "picanha": {
     "file": "images/picanha.jpg",
-    "creator": "Juhele_CZ",
-    "page": "https://www.flickr.com/photos/96541566@N06/51793275950",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "licenseName": "CC0 1.0",
-    "title": "food_barbecue_grilled_picanha_steak_001"
+    "creator": "Christian Benseler",
+    "page": "https://commons.wikimedia.org/wiki/File:Picanha_(14759358544).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "licenseName": "CC BY 2.0",
+    "title": "Picanha (14759358544).jpg"
   },
   "ribs": {
     "file": "images/ribs.jpg",
@@ -41,11 +41,11 @@ const PHOTOS = {
   },
   "pizza": {
     "file": "images/pizza.jpg",
-    "creator": "jeffreyw",
-    "page": "https://www.flickr.com/photos/7927684@N03/9235473304",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "licenseName": "CC BY 2.0",
-    "title": "Mmm... Pizza Margherita"
+    "creator": "Lombroso",
+    "page": "https://commons.wikimedia.org/wiki/File:Pizza_Margherita_().JPG",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseName": "CC BY-SA 4.0",
+    "title": "Pizza Margherita ().JPG"
   },
   "bloemkool": {
     "file": "images/bloemkool.jpg",
@@ -145,11 +145,11 @@ const PHOTOS = {
   },
   "gambas": {
     "file": "images/gambas.jpg",
-    "creator": "joebeone",
-    "page": "https://www.flickr.com/photos/71753172@N00/156550031",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "licenseName": "CC BY 2.0",
-    "title": "The best grilled shrimp"
+    "creator": "Sebastian Mary",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_prawns_with_herb_butter,_flamed_in_white_wine_with_sauteed_garlics._(357868167).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "licenseName": "CC BY-SA 2.0",
+    "title": "Grilled prawns with herb butter, flamed in white wine with sauteed garlics. (357868167).jpg"
   },
   "dorade": {
     "file": "images/dorade.jpg",
@@ -217,11 +217,11 @@ const PHOTOS = {
   },
   "carne-asada": {
     "file": "images/carne-asada.jpg",
-    "creator": "jeffreyw",
-    "page": "https://www.flickr.com/photos/7927684@N03/8155958168",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "licenseName": "CC BY 2.0",
-    "title": "Mmm... carne asada tacos"
+    "creator": "Jon Sullivan",
+    "page": "https://commons.wikimedia.org/wiki/File:Carne_asada_tacos.jpg",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carne_asada_tacos.jpg#Licensing",
+    "licenseName": "Publiek domein",
+    "title": "Carne asada tacos.jpg"
   },
   "porchetta": {
     "file": "images/porchetta.jpg",
@@ -362,10 +362,10 @@ const PHOTOS = {
   "baked-beans": {
     "file": "images/baked-beans.jpg",
     "creator": "jeffreyw",
-    "page": "https://www.flickr.com/photos/7927684@N03/6267610064",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Brown_sugar_baked_beans_with_bacon.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "licenseName": "CC BY 2.0",
-    "title": "Mmm... baked beans"
+    "title": "Brown sugar baked beans with bacon.jpg"
   },
   "asperges": {
     "file": "images/asperges.jpg",

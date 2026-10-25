@@ -1,8 +1,8 @@
 'use strict';
 const $=s=>document.querySelector(s), KEY='vuur-smaak-v1';
 const CATEGORIES=['Rund','Varken','Kip & gevogelte','Lam','Vis & zeevruchten','Vegetarisch','Pizza & brood','Bijgerechten','Desserts'];
-let state={selected:'picanha',people:{},favorites:[],checks:{},plan:[],planChecks:{}};
-try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&typeof s==='object'){state.selected=RECIPES.some(r=>r.id===s.selected)?s.selected:'picanha';state.people=s.people&&typeof s.people==='object'?s.people:{};state.favorites=Array.isArray(s.favorites)?s.favorites.filter(id=>RECIPES.some(r=>r.id===id)):[];state.checks=s.checks&&typeof s.checks==='object'?s.checks:{};state.plan=Array.isArray(s.plan)?[...new Set(s.plan.filter(id=>RECIPES.some(r=>r.id===id)))]:[];state.planChecks=s.planChecks&&typeof s.planChecks==='object'?s.planChecks:{};}}catch{}
+let state={selected:'picanha',people:{},favorites:[],checks:{},plan:[],planChecks:{},cookSteps:{},timer:null};
+try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&typeof s==='object'){state.selected=RECIPES.some(r=>r.id===s.selected)?s.selected:'picanha';state.people=s.people&&typeof s.people==='object'?s.people:{};state.favorites=Array.isArray(s.favorites)?s.favorites.filter(id=>RECIPES.some(r=>r.id===id)):[];state.checks=s.checks&&typeof s.checks==='object'?s.checks:{};state.plan=Array.isArray(s.plan)?[...new Set(s.plan.filter(id=>RECIPES.some(r=>r.id===id)))]:[];state.planChecks=s.planChecks&&typeof s.planChecks==='object'?s.planChecks:{};state.cookSteps=s.cookSteps&&typeof s.cookSteps==='object'?s.cookSteps:{};state.timer=s.timer&&typeof s.timer==='object'?s.timer:null;}}catch{}
 let onlyFavorites=false,activeCategory='Alles',toastTimer;
 function toast(t){$('#toast').textContent=t;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').textContent='',3500)}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch{toast('Opslaan is niet beschikbaar; wijzigingen gelden voor deze sessie.')}}
