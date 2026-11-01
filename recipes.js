@@ -1,5 +1,79 @@
 const RECIPES = [
   {
+    "id": "sticky-ketjap-kippendijen",
+    "title": "Sticky ketjap-kippendijen",
+    "category": "Kip & gevogelte",
+    "description": "Sappige kippendijen met een glanzende, zoet-hartige ketjap-honingglaze, gember en limoen.",
+    "time": "35–45 min + 2 uur marineren",
+    "temp": "180 °C",
+    "core": "Minimaal 75 °C; 80–85 °C voor extra mals",
+    "mode": "Indirect",
+    "base": 4,
+    "ingredients": [
+      {
+        "qty": 800,
+        "unit": "g",
+        "name": "kippendijfilet zonder bot"
+      },
+      {
+        "qty": 100,
+        "unit": "ml",
+        "name": "ketjap manis"
+      },
+      {
+        "qty": 30,
+        "unit": "ml",
+        "name": "sojasaus"
+      },
+      {
+        "qty": 40,
+        "unit": "g",
+        "name": "honing"
+      },
+      {
+        "qty": 4,
+        "unit": "tenen",
+        "name": "knoflook"
+      },
+      {
+        "qty": 15,
+        "unit": "g",
+        "name": "verse gember"
+      },
+      {
+        "qty": 1,
+        "unit": "stuk",
+        "name": "limoen"
+      },
+      {
+        "qty": 10,
+        "unit": "ml",
+        "name": "sesamolie"
+      },
+      {
+        "qty": 5,
+        "unit": "g",
+        "name": "sambal oelek"
+      },
+      {
+        "qty": 10,
+        "unit": "g",
+        "name": "sesamzaad"
+      }
+    ],
+    "prep": "Zet twee schaaltjes klaar: één voor de marinade van de rauwe kip en één met apart gehouden, schone glaze. Marineer de kip minstens 30 minuten en liefst 2 uur gekoeld. Gebruik de apart gehouden glaze voor het lakken.",
+    "steps": [
+      "Meng ketjap, sojasaus, honing, geperste knoflook, geraspte gember, limoensap, sesamolie en sambal. Houd vóór contact met rauwe kip circa een derde apart in een schoon schaaltje.",
+      "Marineer de kippendijen met de rest minimaal 30 minuten, liefst 2 uur, afgedekt in de koelkast.",
+      "Steek je Bastard VX Large aan. Plaats de hitteschilden en een lekbak en stabiliseer indirect op circa 180 °C. Gebruik eventueel één kleine chunk appel- of kersenhout.",
+      "Leg de kippendijen op het rooster, sluit het deksel en gaar ongeveer 25 minuten. Houd de temperatuur rond 180 °C; de totale tijd hangt af van de dikte.",
+      "Bestrijk de kip tijdens de laatste 5–10 minuten twee keer met de schone, apart gehouden ketjapglaze. Let op dat de suiker niet verbrandt.",
+      "Meet met je Inkbird in het dikste deel. Gaar tot minimaal 75 °C, of tot 80–85 °C als je extra zachte kippendijen wilt. Bestrooi met sesamzaad en serveer met pandanrijst en komkommersalade."
+    ],
+    "tip": "Optioneel Angus & Oink Honey Chilli: gebruik circa 20 g rub op 800 g kip en verminder dan de honing in de marinade tot circa 15 g. Voeg zoete glaze pas aan het einde toe. Knijp de luchttoevoer al wat terug zodra de Bastard richting 160 °C gaat; vaste schuifstanden verschillen per situatie.",
+    "source": "https://sandergeurtsen-dot.github.io/vuur-en-smaak-kamado/"
+  },
+  {
     "id": "picanha",
     "title": "Picanha met kruiden",
     "category": "Rund",
