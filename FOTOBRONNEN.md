@@ -74,3 +74,16 @@ Het omslagbeeld van de kamado is een digitaal gemaakt sfeerbeeld op basis van de
 68. **honingwortels** — [And of course, roasted honey carrots with thyme van whatleydude](https://www.flickr.com/photos/85318305@N00/5723118715) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
 69. **brownie** — [Fudgy Chocolate Brownies with Macadamia Nuts van Kelly Hunter](https://www.flickr.com/photos/47149893@N07/15410404930) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
 70. **appeltaart** — [Apple Pie van Happy Krissy](https://www.flickr.com/photos/53503060@N06/6079924588) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+
+## Aanvulling 3 november 2026
+
+- **maiskolven-boter** — `images/maiskolven-boter.jpg`: AI-gegenereerd sfeerbeeld, gemaakt met de ingebouwde OpenAI-beeldgenerator. Vier gegrilde maïskolven met smeltende boter, peper en zout op een donkere schaal.
+- **sticky-ketjap-kippendijen** — `images/sticky-ketjap-kippendijen.jpg`: AI-gegenereerd sfeerbeeld, gemaakt met de ingebouwde OpenAI-beeldgenerator. Gegrilde kippendijen met ketjap-honingglaze, lente-ui en limoen.
+
+Deze vijf beelden zijn geen foto’s van werkelijk bereide gerechten; er is geen externe fotograaf of Creative Commons-licentie aan toegekend.
+
+- **pulled-lamb** — `images/pulled-lamb-v2.jpg`: nieuw AI-gegenereerd sfeerbeeld via de ingebouwde beeldgenerator; vervangt het eerdere sfeerbeeld op de site. De oorspronkelijke afbeelding en credits blijven bewaard.
+
+- **butter-chicken** — `images/butter-chicken-v2.jpg`: nieuw AI-gegenereerd sfeerbeeld via de ingebouwde beeldgenerator; vervangt het eerdere sfeerbeeld op de site. De oorspronkelijke afbeelding en credits blijven bewaard.
+
+- **halloumi-groenten** — `images/halloumi-groenten-v2.jpg`: nieuw AI-gegenereerd sfeerbeeld via de ingebouwde beeldgenerator; vervangt het eerdere sfeerbeeld op de site. De oorspronkelijke afbeelding en credits blijven bewaard.

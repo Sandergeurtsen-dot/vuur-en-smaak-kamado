@@ -1,5 +1,42 @@
 const RECIPES = [
   {
+    "id": "maiskolven-boter",
+    "title": "Gegrilde maïskolven met boter",
+    "category": "Bijgerechten",
+    "description": "Zoete maïs, goudbruine grillplekjes en smeltende roomboter. Een eenvoudig bijgerecht voor de Bastard VX Large.",
+    "time": "25 min + opwarmen",
+    "temp": "180 °C",
+    "core": "Korrels zacht en sappig",
+    "mode": "Direct",
+    "base": 4,
+    "ingredients": [
+      {
+        "qty": 4,
+        "unit": "stuks",
+        "name": "verse maiskolven"
+      },
+      {
+        "qty": 70,
+        "unit": "g",
+        "name": "roomboter"
+      },
+      {
+        "qty": null,
+        "unit": "naar smaak",
+        "name": "zout en zwarte peper"
+      }
+    ],
+    "prep": "Gebruik verse suikermaïs. Haal de bladeren en draden weg. Laat de boter zacht worden en meng er peper en zout door.",
+    "steps": [
+      "Stabiliseer de Bastard op 180 °C. Gril boven de kolen zonder hitteschild; houd aan de rand een plek met minder hitte vrij.",
+      "Leg de kolven op het schone rooster. Sluit het deksel en keer elke paar minuten. Reken op 15–20 minuten, tot de korrels zacht zijn.",
+      "Schuif kolven die snel donker kleuren naar de koelere rand. Controleer een korrel met een vork; verleng de bereiding indien nodig.",
+      "Haal de maïs van de grill, verdeel de boter erover en serveer meteen."
+    ],
+    "tip": "Eén kolf per persoon als bijgerecht. Maak de boter eerder op de dag en bewaar afgedekt in de koelkast. Gril de maïs vlak voor het eten. Met voorgekookte kolven is de tijd korter: controleer vanaf 5 minuten en volg de verpakking.",
+    "source": "https://www.weber.com/NL/nl/recepten/vegetarisch/gegrilde-ma%C3%AFskolven/weber-430362.html"
+  },
+  {
     "id": "sticky-ketjap-kippendijen",
     "title": "Sticky ketjap-kippendijen",
     "category": "Kip & gevogelte",

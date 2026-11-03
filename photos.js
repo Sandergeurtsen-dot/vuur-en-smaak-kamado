@@ -272,12 +272,9 @@ const PHOTOS = {
     "title": "Yakitori skewers @ Yoki @ Montparnasse @ Paris"
   },
   "pulled-lamb": {
-    "file": "images/pulled-lamb.jpg",
-    "creator": "Bernt Rostad",
-    "page": "https://www.flickr.com/photos/67975030@N00/8121891612",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "licenseName": "CC BY 2.0",
-    "title": "Slow cooked lamb of leg"
+    "file": "images/pulled-lamb-v2.jpg",
+    "generated": true,
+    "title": "pulled-lamb"
   },
   "lamskofta": {
     "file": "images/lamskofta.jpg",
@@ -456,12 +453,9 @@ const PHOTOS = {
     "title": "Jerk chicken july 05.jpg"
   },
   "butter-chicken": {
-    "file": "images/butter-chicken.jpg",
-    "creator": "junyaogura",
-    "page": "https://www.flickr.com/photos/73344268@N00/3291448439",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "licenseName": "CC BY 2.0",
-    "title": "Butter Chicken Curry"
+    "file": "images/butter-chicken-v2.jpg",
+    "generated": true,
+    "title": "butter-chicken"
   },
   "lamskoteletten": {
     "file": "images/lamskoteletten.jpg",
@@ -496,12 +490,9 @@ const PHOTOS = {
     "title": "Grilled Scallops with Mexican Corn Salad"
   },
   "halloumi-groenten": {
-    "file": "images/halloumi-groenten.jpg",
-    "creator": "Ruth and Dave",
-    "page": "https://www.flickr.com/photos/95142644@N00/36485067785",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-    "licenseName": "CC BY 2.0",
-    "title": "Grilled halloumi, peppers and tomatoes"
+    "file": "images/halloumi-groenten-v2.jpg",
+    "generated": true,
+    "title": "halloumi-groenten"
   },
   "gevulde-paprika": {
     "file": "images/gevulde-paprika.jpg",
@@ -558,5 +549,15 @@ const PHOTOS = {
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
     "licenseName": "CC BY 2.0",
     "title": "Apple Pie"
+  },
+  "maiskolven-boter": {
+    "file": "images/maiskolven-boter.jpg",
+    "generated": true,
+    "title": "Gegrilde maïskolven met boter"
+  },
+  "sticky-ketjap-kippendijen": {
+    "file": "images/sticky-ketjap-kippendijen.jpg",
+    "generated": true,
+    "title": "Sticky ketjap-kippendijen"
   }
 };

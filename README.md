@@ -1,6 +1,6 @@
 # Vuur & Smaak — Bastard VX Large
 
-70 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. Elke kaart en elk recept heeft een echte foodfoto als sfeerbeeld. Gebruik de categorieknoppen en filters voor bereidingstijd en directe of indirecte hitte om een recept te vinden. Klik op een kaart om een apart receptscherm te openen met voorbereiding, duidelijke stappen, kerntemperatuur en schaalbare ingrediënten. De kookstand toont één stap tegelijk met een eenvoudige timer. Je kunt meerdere recepten aan één kookplan toevoegen; de boodschappenlijst is per winkelafdeling ingedeeld en laat zich afvinken, kopiëren en delen.
+72 kamadorecepten in negen categorieën: rund, varken, kip & gevogelte, lam, vis & zeevruchten, vegetarisch, pizza & brood, bijgerechten en desserts. Elke kaart en elk recept heeft een eigen passend sfeerbeeld. Gebruik de categorieknoppen en filters voor bereidingstijd en directe of indirecte hitte om een recept te vinden. Klik op een kaart om een apart receptscherm te openen met voorbereiding, duidelijke stappen, kerntemperatuur en schaalbare ingrediënten. De kookstand toont één stap tegelijk met een eenvoudige timer. Je kunt meerdere recepten aan één kookplan toevoegen; de boodschappenlijst is per winkelafdeling ingedeeld en laat zich afvinken, kopiëren en delen.
 
 Eigen vereenvoudigde varianten, met per recept een link naar de inspiratiebron. De uitbreiding is mede geïnspireerd op recepten en technieken van Steven Raichlen en Meathead, naast The Bastard en Big Green Egg. Geen officiële merkapp of objectieve ranglijst. De app is gepubliceerd via GitHub Pages; er wordt geen ChatGPT Sites-ruimte gebruikt.
 
@@ -44,7 +44,7 @@ Apple-handleiding: https://support.apple.com/guide/iphone/open-as-web-app-iphea8
 - De collectie bevat hoofdgerechten, bijgerechten, brood en desserts. Lees de tip bij het recept voor de portiegrootte: de burnt ends zijn bijvoorbeeld als borrelhap berekend.
 
 ## Bestanden en onderhoud
-`index.html`, `style.css`, `app.js`, `features.js`, `recipes.js` en `photos.js` vormen de app. De 70 gerechtfoto’s staan lokaal in `images/`; de volledige naamsvermelding en licenties staan in `FOTOBRONNEN.md` en bij de foto’s op de receptschermen. Vijf beelden zijn vervangen door beter passende, vrij gelicentieerde foto's. Het blijven sfeerbeelden, geen foto’s van de exacte bereidingswijze. Het omslagbeeld is digitaal gemaakt op basis van de aangeleverde kamado-referentie en is geen officiële productfoto. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
+`index.html`, `style.css`, `app.js`, `features.js`, `recipes.js` en `photos.js` vormen de app. De 72 gerechtbeelden staan lokaal in `images/`; de volledige naamsvermelding en licenties staan in `FOTOBRONNEN.md` en bij de foto’s op de receptschermen. Vijf beelden zijn vervangen door beter passende, vrij gelicentieerde foto's. Het blijven sfeerbeelden, geen foto’s van de exacte bereidingswijze. Het omslagbeeld is digitaal gemaakt op basis van de aangeleverde kamado-referentie en is geen officiële productfoto. Er zijn geen externe fonts, pakketten of bouwstappen nodig.
 
 `manifest.webmanifest`, `sw.js` en de PNG-iconen regelen installatie/offline. Alle paden zijn relatief, zodat GitHub Pages ook onder een repositorypad werkt. De startpagina haalt online steeds de nieuwste versie op en gebruikt de opgeslagen kopie als het netwerk ontbreekt. Bij een update: verhoog de cacheversie in `sw.js` (bijvoorbeeld van v18 naar v19), upload de gewijzigde bestanden en open de app online opnieuw. Zo worden oude offlinebestanden vervangen.
 
@@ -57,3 +57,6 @@ Basisgids: https://manuals.coolblue.be/be/the-bastard-medium-compleet-2022.pdf
 Veilige kerntemperaturen: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart
 
 Bronnen geraadpleegd op 24 oktober 2026. De app is niet op een fysieke iPhone of een echte kamado getest.
+
+## Update 3 november 2026
+Gegrilde maïskolven met boter toegevoegd, naar Weber (bronlink in het recept). Sticky ketjap-kippendijen hebben nu ook een eigen beeld. Alle 72 recepten hebben een uniek lokaal afbeeldingsbestand. De vijf nieuwe beelden zijn met de ingebouwde beeldgenerator gemaakt en op de receptpagina als AI-gegenereerd gemarkeerd.
